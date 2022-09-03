@@ -58,16 +58,12 @@ nav {
      padding-top: 20px !important; 
  }
 
- img {
-    filter: grayscale(100%);
-}
 
 body {
     font-family: 'Anime ACE BB' !important;
     width: 100%;
     background-image: url('images/bgmanga.jpg');
     background-size: 100% 5%;
-    background-repeat: repeat;
     color: #656770;
 }
 h1 {
