@@ -63,13 +63,6 @@ img {
 }
 
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  border-style: solid;
-  border-width: 0;
-
 body {
     font-family: 'Anime ACE BB' !important;
     width: 100%;
@@ -87,13 +80,6 @@ h1 {
     font-family: 'Roboto' !important;
     text-transform: uppercase;
     font-weight: 100;
-}
-
-#container {
-  padding: auto;
-  height: 100%;
-  max-width: 768px;
-  margin: auto;
 }
 
 
