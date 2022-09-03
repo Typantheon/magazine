@@ -42,7 +42,7 @@
                 <p>Late XX century</p>
             </li>
             <li>
-                <p onclick = "changeStylesheet('../manga.css')">Start of the XXI century</p>
+                <p onclick = "changeStylesheet('../manga.css')" id = "xxicentury">Start of the XXI century</p>
             </li>
             <li>
                 <p>A glimpse of the future</p>
@@ -81,6 +81,12 @@
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/cailleach.html");
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> The Cailleach </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
             });
+          });
+        </script>
+        <script> 
+            $(document).ready(function(){
+                $("#xxicentury").click(function(){
+                     $("#articleToRead").load("https://typantheon.github.io/magazine/mangastructure.js");
           });
         </script>
     </body>
