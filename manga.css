@@ -63,7 +63,7 @@ body {
     font-family: 'Anime ACE BB' !important;
     width: 100%;
     background-image: url('images/bgmanga.jpg');
-    background-size: 100% 5%;
+    background-size: auto; 
     color: #656770;
 }
 h1 {
@@ -73,7 +73,7 @@ h1 {
     left: 50%;
     width: 70%;
     margin: auto;
-    font-family: 'title' !important;
+    font-family: 'Roboto' !important;
     text-transform: uppercase;
     font-family: 'body';
     font-weight: 100;
@@ -122,7 +122,7 @@ h1 {
     color: #656770;
 }
 .author {
-    font-family: 'title';
+    font-family: 'h1';
     color: #656770;
     text-align: center;
     font-size: 36pt;
