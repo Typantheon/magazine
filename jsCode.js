@@ -17,6 +17,13 @@ function changeStylesheet(css) {
         document.getElementById('article').appendChild(img1);
         innerArticle.insertBefore(img2, innerArticle.firstChild)
     }
+    else if (css == '../manga.css') {
+        var js_script = document.createElement('script');
+        js_script.type = "text/javascript";
+        js_script.src = "https://typantheon.github.io/magazine/mangastructure.js";
+        js_script.async = true;
+        document.getElementsByTagName('head')[0].appendChild(js_script);
+    }
 };
 
 function addStylesheet(fileName) {
