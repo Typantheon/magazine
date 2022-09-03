@@ -21,13 +21,18 @@ nav {
     left: 0;
     top: -10px;
     z-index:101;
+    background-image: url('images/bgmanga.jpg'); 
  }
  
  #themes-list {
      position: absolute;
      top: 100px;
  }
- 
+
+#themes-list.speech {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/speech-bubble.svg); 
+    text-align: center} 
+
  nav > ul, #themes-list {
      background-color: #000000;
      font-family: 'Anime ACE BB';
@@ -49,6 +54,7 @@ nav {
      background-color: #f8f0e2;
      width: 100%;
      left: 0;
+     
  }
  
  .sticky {
@@ -68,10 +74,10 @@ body {
     width: 100%;
     background-image: url('images/bgmanga.jpg');
     background-size: auto; 
-    color: #656770;
+    color: #F0FFF0;
 }
 h1 {
-    color: #cf4b3a;
+    color: #362c2b;
     font-size: 60pt;
     padding-top: 50px;
     left: 50%;
@@ -79,7 +85,8 @@ h1 {
     margin: auto;
     font-family: 'Roboto' !important;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 100; 
+    text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 
 
@@ -127,13 +134,14 @@ h1 {
 }
 .author {
     font-family: 'Roboto';
-    color: #656770;
+    color: #362c2b;
     text-align: center;
     font-size: 36pt;
+    text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 .publicationDate {
     font-size: 15pt;
-    color: #656770;
+    color: #362c2b;
     text-align: center;
 }
 
@@ -150,7 +158,7 @@ h1 {
 
 
 #article-inner img {
-    border: #656770 solid 1em;
+    border: #F0FFF0 solid 1em;
 }
 #article-inner > p, #article-inner > a, #article-inner > div > p  {
     display: block;
@@ -170,7 +178,7 @@ h1 {
 .pubnote {
     font-size: 18pt !important;
     font-family: 'Anime ACE BB';
-    color: #656770;
+    color: #362c2b;
     width: 75% !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -183,7 +191,8 @@ h2 {
     font-size: 48pt;
     font-family: 'Roboto';
     text-align: center;
-    color: #cf4b3a;
+    color: #362c2b;
+    text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 #article-inner > hr {
     display:block;
@@ -237,12 +246,14 @@ h3 {
     font-family: 'Roboto';
     text-align: center;
     font-size: 36pt;
+    text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 
 h4 {
     font-family: 'Roboto';
     text-align: center;
     font-size: 24pt;
+    text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 
 #article-inner ul {
