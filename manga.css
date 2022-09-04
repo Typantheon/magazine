@@ -72,9 +72,10 @@ img {
 
 body {
     font-family: 'Anime ACE BB' !important;
+    background-image: url('bgmanga.jpg');
     width: 100%;
     background-size: 100% 5%;
-    background-repeat: repeat;
+    background-repeat: contain;
     color: #FFFFF;
 }
 h1 {
@@ -107,7 +108,6 @@ h1 {
     -webkit-box-shadow: 3px 5px 19px 4px #333; 
     box-shadow: 3px 5px 19px 4px #333;
 }
-
 
 .header {
     position: relative;
