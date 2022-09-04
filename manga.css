@@ -31,25 +31,28 @@ nav {
 }
 
 nav > ul, #themes-list {
-    background-image: url("images/headermanga.jpg");
+    background-colour: #FFFFF;
     font-family: 'Anime ACE BB';
+    color: #0000; 
     padding-top: 0px;
     padding-bottom: 0px; 
     
 }
 
 nav > ul > li, nav a {
-    color: #f8f0e2 !important;
+    font-family: 'Anime ACE BB';
+    color: ##0000 !important;
     font-size: 28px;
 }
 
 #themes-list > li, #themes-list a {
+    font-family: 'Anime ACE BB';
     color: #000000!important;
     font-size: 22px;
 }
 
 #themes-list {
-    background-color: #f8f0e2;
+    background-color: #FFFFF;
     width: 100%;
     left: 0;
 }
@@ -70,7 +73,7 @@ img {
 body {
     font-family: 'Anime ACE BB' !important;
     width: 100%;
-    background-image: url('images/bgmanga.jpg');
+    background-image: url('bgmanga.jpg');
     background-size: 100% 5%;
     background-repeat: repeat;
     color: #FFFFF;
@@ -138,6 +141,7 @@ h1 {
     text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 .publicationDate {
+    font-family: 'Roboto';
     font-size: 15pt;
     color: #656770;
     text-align: center;
@@ -230,8 +234,8 @@ figcaption {
 #article-inner > div {
     display: grid;
     margin-top: 2em;
-    border: solid black;
-    border-color: black;
+    border: solid #00000;
+    border-color: #00000;
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 3em;
@@ -241,14 +245,14 @@ h3 {
     font-family: 'Roboto';
     text-align: center;
     font-size: 36pt;
-     0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
+    text-shadow:0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 
 h4 {
     font-family: 'Roboto';
     text-align: center;
     font-size: 24pt;
-     0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
+    text-shadow:2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 
 #article-inner ul {
