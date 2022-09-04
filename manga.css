@@ -34,7 +34,7 @@ nav {
     text-align: center} 
 
  nav > ul, #themes-list {
-     background-color: #000000;
+     background-image: url("images/bgmanga.jpg");
      font-family: 'Anime ACE BB';
      padding-top: 0px;
      padding-bottom: 0px;
@@ -130,7 +130,7 @@ h1 {
     font-size: 15pt;
     text-align: center;
     padding: 10px;
-    color: #656770;
+    color: #362c2b;
 }
 .author {
     font-family: 'Roboto';
@@ -168,7 +168,7 @@ h1 {
     padding-right: 5em;
     width: calc(100% - 10em);
     font-size: 14pt;
-    color: #656770;
+    color: #362c2b;
 }
 
 #article-inner > a {
@@ -236,7 +236,7 @@ figcaption {
 #article-inner > div {
     display: block;
     margin-top: 2em;
-    border: solid #cf4b3a 1em;
+    border: solid #362c2b 1em;
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 3em;
