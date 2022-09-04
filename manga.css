@@ -10,12 +10,12 @@
     src: url("Roboto-regular.ttf")
 }
 
+/* the navbar */
+
 
 html {
     overflow-x: hidden;
 }
-
-/* the navbar */
 
 nav {
    position: absolute;
@@ -23,7 +23,6 @@ nav {
    left: 0;
    top: -10px;
    z-index:101;
-   background-image: url("images/headermanga.jpg");
 }
 
 #themes-list {
@@ -68,7 +67,7 @@ img {
 }
 
 body {
-    font-family: 'body' !important;
+    font-family: 'Anime ACE BB' !important;
     width: 100%;
     background-image: url('images/bgmanga.png');
     background-size: 100% 5%;
@@ -82,9 +81,9 @@ h1 {
     left: 50%;
     width: 70%;
     margin: auto;
-    font-family: 'title' !important;
+    font-family: 'Roboto' !important;
     text-transform: uppercase;
-    font-family: 'body';
+    font-family: 'Anime ACE BB';
     font-weight: 100;
     text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
@@ -133,7 +132,7 @@ h1 {
     color: #656770;
 }
 .author {
-    font-family: 'title';
+    font-family: 'Roboto';
     color: #656770;
     text-align: center;
     font-size: 36pt;
@@ -145,9 +144,6 @@ h1 {
 }
 
 #article-inner {
-    background-image: url('images/70s-articleinnerbg2.png'), url('images/70s-articleinnerbg3.png'), url('images/70s-articleinnerbg.png');
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-position: top, bottom, top;
     padding-top: 3em;
     padding-bottom: 6em;
     content: "";
