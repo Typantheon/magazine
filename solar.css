@@ -364,7 +364,7 @@ tr:last-child > td {
 		right: 0;
 		bottom: 0;
 		left: 0;
-	z-index: 102;
+	z-index: 1;
 }
 	
 .overlay:after {
@@ -378,12 +378,8 @@ tr:last-child > td {
 		right: 0;
 		bottom: 0;
 		left: 0;
-	z-index: 102;
+	z-index: 2;
 }
-
-
-
-
 
 
 @keyframes scroll {
