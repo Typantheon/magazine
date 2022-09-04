@@ -100,6 +100,7 @@ h1 {
     text-transform: uppercase;
 }
 #article, #article-inner {
+    background-image: url('bgmanga.jpg');
     margin-top: 2.5em;
     margin-bottom: 3em;
     width: 100%;
@@ -220,7 +221,7 @@ figure {
 }
 
 figcaption {
-    color: #f7efdd;
+    color: #00000;
     display: block;
     margin: auto;
     background-color: #cf4b3a;
@@ -232,7 +233,7 @@ figcaption {
 }
 
 #article-inner > div {
-    display: grid;
+    display: block;
     margin-top: 2em;
     border: solid #00000;
     border-color: #00000;
