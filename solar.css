@@ -51,6 +51,7 @@ nav > ul > li, nav a {
     background-color: #9E90A2;
     width: 100%;
     left: 0;
+	font-family: "Brassia-Regular";
 }
 
 .sticky {
@@ -62,42 +63,6 @@ nav > ul > li, nav a {
 
 
 /* the article */
-
-.overlay {
-	height: 1px;
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 1px;
-}
-
-.overlay:before {
-	background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.03));
-	background-size: 100% 3px, 6px 100%;
-	content: "";
-	display: block;
-	pointer-events: none;
-	position: fixed;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-	z-index: 2;
-}
-	
-.overlay:after {
-	animation: flicker 0.30s infinite;
-	background: rgba(16, 16, 16, 0.2);
-	content: "";
-	display: block;
-	pointer-events: none;
-	position: fixed;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-	z-index: 2;
-}
 
 
 img {
@@ -136,7 +101,6 @@ h1 {
     margin-bottom: 3em;
     width: 100%;
     -webkit-box-shadow: 3px 5px 19px 4px #333; 
-    box-shadow: 3px 5px 19px 4px #333;
 }
 
 .header {
@@ -380,6 +344,47 @@ td:last-child {
 tr:last-child > td {
     border-bottom: none!important;
 }
+
+.overlay {
+	height: 1px;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 1px;
+}
+
+.overlay:before {
+	background: linear-gradient(#101010 50%, rgba(16, 16, 16, 0.2) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.03));
+	background-size: 100% 3px, 6px 100%;
+	content: "";
+	display: block;
+	pointer-events: none;
+	position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	z-index: 102;
+}
+	
+.overlay:after {
+	animation: flicker 0.30s infinite;
+	background: rgba(16, 16, 16, 0.2);
+	content: "";
+	display: block;
+	pointer-events: none;
+	position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	z-index: 102;
+}
+
+
+
+
+
 
 @keyframes scroll {
 	0% { height: 0 }
