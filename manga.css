@@ -29,12 +29,9 @@ nav {
      top: 100px;
  }
 
-#themes-list.speech {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/speech-bubble.svg); 
-    text-align: center} 
 
  nav > ul, #themes-list {
-     background-image: url("images/bgmanga.jpg");
+     background-colour: #f8f0e2;
      font-family: 'Anime ACE BB';
      padding-top: 0px;
      padding-bottom: 0px;
