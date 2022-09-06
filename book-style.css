@@ -1,0 +1,254 @@
+@font-face {
+    font-family: gutenberg;
+    src: url('gutenberg.ttf');
+}
+
+html{
+    font-family: gutenberg;
+}
+
+body {
+    background-image: url('cervantes_portrait.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Just for Apple based browsers*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    cursor: url(nib-cursor.png), auto;
+}
+
+/* Book container */
+.cervantes-book {
+    transition: opacity 0.4s 0.2s;
+    perspective: 250vw;
+}
+
+/* Images inside the book */
+.cervantes-book img{
+    display: flex;
+    height: 200px;
+    width: auto;
+    margin: auto;
+    border: 3px solid;
+}
+
+/* Pages container properties */
+.pages {
+    margin-bottom: 0%;
+    margin-top: 15vh; 
+    width: 70vw;
+    height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+/* Page properties */
+.page {
+    width: 50%;
+    height: 90%;
+    max-width: auto;
+    max-height: 90%;
+    float: left;
+    user-select: none;
+    background-image: url(data:image/png;base64,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);
+    box-shadow: 1px 2px 4px rgb(0, 0, 0), 0 0 60px 10px rgb(102, 55, 8) inset;
+    
+    top: 0;
+    position: absolute;
+    transform-origin: 0 0;
+    transition: transform 1.1s;  /* Delay to flip a page */
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    background-color: rgb(142, 103, 66);
+}
+
+/* Padding to all content except covers */
+.page:not(hr, .front-cover, .back-cover) {
+    padding:20px;
+}
+
+/* Text and section properties on pages */
+.page section{
+    margin: 20px;
+}
+.page p{
+    text-align: center;
+    color: #000000;
+    font-size: medium;
+}
+
+.page h1, h2,h3,h4{
+    text-align: center;
+    color: #000000;
+    font-size: xx-large;
+}
+
+/* References */
+sup a{
+    text-decoration: none;
+    color: #000000;
+}
+/* Invisible page before real pages which allows the flipping */
+.page:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(226, 46, 46, 0);
+    transition: 0.7s;
+    z-index: 2;
+}
+
+/* Front cover text, overrides some of default styles defined previously */
+.page:first-child section{
+    transform: translateY(50%);
+}
+.page:first-child h4{
+    font-size: 40px;
+    margin-bottom: -40px;
+}
+.page:first-child h1{
+    font-size: 80px;
+}
+.page:first-child p{
+    font-size: xx-large;
+    word-break: normal;
+}
+
+/* Front and back cover reddish edges */
+.page:first-child,
+.page:last-child{
+    background-color: rgb(94, 12, 12);
+    box-shadow: 0 0 35px 24px rgb(64, 5, 5) inset;
+}
+
+/* Pre-cover pages */
+.page:nth-child(2), .page:nth-last-child(2){
+    background-color: rgb(94, 12, 12);
+    box-shadow: 0 0 35px 24px rgb(64, 5, 5) inset;
+    border:rgb(55, 3, 3) 4px solid;
+}
+
+figcaption{
+    text-align: center;
+}
+
+/* For pages on the right side of the book */
+.page:nth-child(odd) {
+    pointer-events: all;
+    transform: rotateY(0deg);
+    right: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+/* For pages on the left side of the book */
+.cervantes-book .page:nth-child(even) {
+    border-radius: 4px 0 0 4px;
+    transform: rotateY(180deg);
+    transform-origin: 100% 0;
+    left: 0;
+}
+
+/* To flip pages to left */
+.cervantes-book .page.flipped:nth-child(odd) {
+    pointer-events: none;
+    transform: rotateY(-180deg);
+}
+
+/* Book's inclination for a previous page, is 10 degrees to pretend a real book */
+.cervantes-book .page.flipped:nth-child(even) {
+    pointer-events: all;
+    transform: rotateY(10deg); 
+}
+
+/* Page's inclination for previous pages (even pages) when mouse is over the page */
+.page.flipped:nth-child(even):hover {
+    transform: rotateY(20deg);
+}
+/* Same but for reversed, for next pages which are all odd */
+.page:nth-child(odd):hover {
+    transform: rotateY(-20deg);
+}
+
+/* This is just pure frills, highlight pages on hovering except cover page */
+.page:not(:first-child):hover.flipped:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+.page:not(:first-child):hover:before {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Takes into account borders, padding and margin for every element */
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+/* Family tree table */
+.family-table {
+    table-layout: fixed; 
+    margin: 50px auto;
+    padding: auto;
+	border-spacing: 0;
+    border-style: groove;
+    border-width: 8px;
+    border-color: rgb(150, 97, 47);
+    text-align: center;
+	vertical-align: middle;
+    font-size: large;
+}
+
+.family-table td {
+	border-style: groove;
+	border-width: 4px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.family-table th {
+	border-style: groove;
+	border-width: 4px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+
+.family-table .tg-header {
+    border-color: inherit;
+}
+
+.family-table .tg-content {
+    border-color: inherit;
+}
+
+.family-table .tg-category {
+	border-color: inherit;
+}
+/* End of family tree table */
+
+
+/* Positioning of page numbers */
+.pageNumber{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: x-large;
+}
+
+/* Don Quixote back cover */
+#back-cover-img {
+    display: flex;
+    position: absolute; 
+    justify-content: center;
+    align-self: center;
+    width: 450px;
+    height: auto;
+    border: none;
+    transform: translate(25%, 20%);
+}
