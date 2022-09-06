@@ -27,10 +27,10 @@
         </nav>
         <ul id="themes-list">
             <li>
-                <p>XV century</p>
+                <p onclick="changeStylesheet('../cervantes_style.css')">XV century</p>
             </li>
             <li>
-                <p>XIX century</p>
+                <p onclick="changeStylesheet('../revo_style.css')">XIX century</p>
             </li>
             <li>
                 <p onclick="changeStylesheet('../cassandre20s.css')">1930</p>
@@ -39,7 +39,7 @@
                 <p onclick="changeStylesheet('../retro70s.css')">1970</p>
             </li>
             <li>
-                <p>Late XX century</p>
+                <p >Late XX century</p>
             </li>
             <li>
                 <p onclick = "changeStylesheet('../manga.css')">Start of the XXI century</p></p>
@@ -57,7 +57,7 @@
             <hr>
             <div id="meta-info">
             </div>
-            <p>Look fot Named Entities</p>
+            <p>Look for Named Entities</p>
             <hr>
             <div id="entities">
             </div>
@@ -66,6 +66,8 @@
         <button id="hephaestus">Hephaestus</button>
         <button id="cailleach">Cailleach</button>
         <button id="loki">Loki</button>
+        <button id="raijin">Raijin</button>
+        <button id="quetzalcoatl">Quetzalcoatl</button>
         <section id="articleToRead">
         </section>
         <script>
@@ -84,7 +86,15 @@
                 $("#loki").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/loki.html");
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Loki </li><li><span class='bolder'>Author:</span> Thomas Apel </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
-                });   
+                });  
+                $("#raijin").click(function(){
+                    $("#articleToRead").load("raijin.html");
+                    $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Raijin </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
+                });    
+                $("#quetzalcoatl").click(function(){
+                    $("#articleToRead").load("quetzalcoatl.html");
+                    $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Quetzalcoatl </li><li><span class='bolder'>Author:</span> Evan Meehan </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
+                });    
             });
         </script>
         <script>
