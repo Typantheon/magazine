@@ -40,4 +40,14 @@ function addStylesheet(fileName) {
         href: fileName
     })
     $('head').append(link);
+};
+
+function highlight(entity) {
+    var getElementById(entity);
+    const spans = document.getElementsByTagName("span");
+    for (let i = 0; i < spans.length; i++) {
+      if (spans[i].getAttribute('place') == entity) {
+          spans[i].classList.add('place-bg');
+      }
+    }
 }
