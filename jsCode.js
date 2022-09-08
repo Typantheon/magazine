@@ -43,7 +43,6 @@ function addStylesheet(fileName) {
 };
 
 function highlight(entity) {
-    var getElementById(entity);
     const spans = document.getElementsByTagName("span");
     for (let i = 0; i < spans.length; i++) {
       if (spans[i].getAttribute('place') == entity) {
