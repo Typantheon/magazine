@@ -60,6 +60,7 @@
             <p>Look for Named Entities</p>
             <hr>
             <div id="entities">
+                <ul><li><span class='bolder'>Places:</li><li onclick="highlight('athens')">Athens</li><li onclick="highlight('crete')">Crete</li><li>Knossos</li><li>Lemnos</li><li>Mount Olympus</li></ul>
             </div>
         </div>
         <button id="dyonisus">Dyonisus</button>
@@ -79,7 +80,6 @@
                 $("#hephaestus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/hephaestus.html");
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Hephaestus </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
-                    $("#entities").html("<ul><li><span class='bolder'>Places:</li><li onclick='highlight(athens)'>Athens</li><li onclick='highlight(crete)'>Crete</li><li>Knossos</li><li>Lemnos</li><li>Mount Olympus</li></ul>");
                 });
                 $("#cailleach").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/cailleach.html");
