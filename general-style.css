@@ -263,7 +263,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
     background-color: #90EE90;
     opacity:0;
     animation-name: background-opacity;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
