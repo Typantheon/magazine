@@ -58,7 +58,7 @@ function highlight(entity) {
 
 /*documentation Selector */
 $(function () {
-    $('.style-instance').click(function () {
+    $('.stylesListItem').click(function () {
     $('#documentationSelector').find('.active').removeClass('active');
     $(this).addClass("active");
     movePointer($(this));
