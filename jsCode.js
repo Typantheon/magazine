@@ -63,8 +63,8 @@ $(function () {
         var secondIndex = index + 1
         var translation = 7.5 + ((index - 1) * 15);
         $("#selector").animate({left: translation +'%'});
-        $(".documentationParagraph").find(".active").removeClass("active");
-        $(".documentationParagraph").find(".active").fadeOut();
+        $("#documentation").find(".active").removeClass("active");
+        $("#documentation").find(".active").fadeOut();
         $(".documentationParagraph:eq(secondIndex)").fadeIn();
   });
 });
