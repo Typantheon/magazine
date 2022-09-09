@@ -261,4 +261,14 @@ input[type="checkbox"]:checked ~ #articleToRead{
 
 .place-bg {
     background-color: #90EE90;
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes background-opacity {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+    
