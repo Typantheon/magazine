@@ -213,6 +213,10 @@ section > p , .documentationParagraph p {
 #img-container-2 > img {
  height: 450px;
 }
+#img-container-3 > img {
+ float: left;
+ width: 35%;
+}
 .greater {
  font-size: 1.2em;
  padding-left: 0.5em;
