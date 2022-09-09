@@ -50,5 +50,8 @@ function highlight(entity) {
           spans[i].classList.add('place-bg');
           spans[i].scrollIntoView({behavior: 'smooth'}, true);
       }
+      else {
+          spans[i].classList.remove('place-bg');
+      }
     }
 }
