@@ -194,6 +194,18 @@ section > p {
  animation: background-opacity linear 1s forwards;
 }
 
+.image-container {
+ width: 100%;
+}
+
+#img-container-1 > img, #img-container-2 > img {
+ width: 30%;
+ display: inline-block;
+}
+
+.greater {
+ font-size: 1.2em;
+}
 
 /*#issueList {
     background-color: white;
