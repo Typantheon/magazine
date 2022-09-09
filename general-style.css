@@ -191,7 +191,10 @@ section > p {
 }
 .active {
  display:block !important;
+ animation: background-opacity linear 1s forwards;
 }
+
+
 /*#issueList {
     background-color: white;
     position: absolute;
