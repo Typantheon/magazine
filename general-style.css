@@ -183,6 +183,7 @@ section > p {
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-top: 6px solid #04151f;
+  transition: transform 0.6s ease;
 }
 /*#issueList {
     background-color: white;
