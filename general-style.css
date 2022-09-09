@@ -185,6 +185,13 @@ section > p {
   border-top: 6px solid #04151f;
   transition: transform 0.6s ease;
 }
+
+.documentationParagraph {
+ display:none
+}
+.active {
+ display:block !important;
+}
 /*#issueList {
     background-color: white;
     position: absolute;
