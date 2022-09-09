@@ -167,8 +167,8 @@ section > p {
 }
 
 #documentationSelector ul li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: inline-block;
     width: 15%;
     text-align: center;
