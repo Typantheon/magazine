@@ -153,6 +153,11 @@ section > p {
 
 /*documentation */
 
+#documentationSelector ul {
+ margin:0;
+ padding:0;
+}
+
 #documentationSelector {
   border-bottom: 1px solid #EFEBE8;
   border-top: 1px solid #EFEBE8;
