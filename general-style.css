@@ -156,6 +156,7 @@ section > p {
 #documentationSelector ul {
  margin:0;
  padding:0;
+ width: 100%
 }
 
 #documentationSelector {
@@ -167,11 +168,11 @@ section > p {
 
 #documentationSelector ul li {
     display: inline-block;
-    margin: 16px 24px;
+    width: 20%;
 }
 #selector {
   position: relative;
-  margin-left: -5px;
+  margin-left: 10%;
   top: -1px;
   width: 0;
   height: 0;
