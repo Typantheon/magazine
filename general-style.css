@@ -152,9 +152,6 @@ section > p {
 }
 
 /*documentation */
-#documentationWrapper {
-  height: 60px;
-}
 
 #documentationSelector {
   border-bottom: 1px solid #EFEBE8;
