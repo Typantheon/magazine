@@ -62,7 +62,7 @@ $(function () {
         console.log('hi');
         var index = $(this).parent().children().index(this);
         console.log(index);
-        var translation = index * 7.5;
+        var translation = 7.5 + (index * 15);
         console.log(translation);
         $("#selector").animate({left: translation +'%'});
   });
