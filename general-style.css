@@ -168,11 +168,12 @@ section > p {
 
 #documentationSelector ul li {
     display: inline-block;
-    width: 16.6%;
+    width: 15%;
+    text-align: center;
 }
 #selector {
   position: relative;
-  margin-left: 8.3%;
+  margin-left: 7.5%;
   top: -1px;
   width: 0;
   height: 0;
