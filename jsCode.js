@@ -48,7 +48,7 @@ function highlight(entity) {
     for (let i = 0; i < spans.length; i++) {
       if (spans[i].getAttribute('data-label') == entityName) {
           spans[i].classList.add('place-bg');
-          spans[i].scrollIntoView({behavior: 'smooth', block: "end";}, true);
+          spans[i].scrollIntoView({behavior: 'smooth', block: "end"}, true);
       }
       else {
           spans[i].classList.remove('place-bg');
