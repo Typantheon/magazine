@@ -43,9 +43,7 @@ function addStylesheet(fileName) {
 };
 
 function highlight(entity) {
-    console.log("Hi"); 
-    console.log(entity.getAttribute('name')); 
-    var entityName = entity.name;
+    var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
     for (let i = 0; i < spans.length; i++) {
       if (spans[i].getAttribute('data-label') == entityName) {
