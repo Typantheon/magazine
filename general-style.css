@@ -200,9 +200,10 @@ section > p {
 }
 
 #img-container-1 > img, #img-container-2 > img {
- width: 33.3%;
+ width: 32%;
  display: inline-block;
  object-fit: cover;
+ object-position: center;
 }
 #img-container-1 > img {
  height: 200px;
@@ -212,6 +213,7 @@ section > p {
 }
 .greater {
  font-size: 1.2em;
+ padding-left: 0.5em;
 }
 
 /*#issueList {
