@@ -60,7 +60,8 @@ function highlight(entity) {
 $(function () {
     $('.stylesListItem').click(function () {
         var index = $(this).parent().children().index(this);
-        var translation = index * 7.5
+        var translation = index * 7.5;
+        consol.log(translation);
         $("#selector").animate({left: translation +'%'});
   });
 });
