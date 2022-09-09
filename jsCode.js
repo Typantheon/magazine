@@ -44,10 +44,11 @@ function addStylesheet(fileName) {
 
 function highlight(entity) {
     console.log("Hi"); 
-    console.log(entity.innerHtml);     
+    console.log(entity.name); 
+    var entityName = entity.name;
     const spans = document.getElementsByTagName("span");
     for (let i = 0; i < spans.length; i++) {
-      if (spans[i].getAttribute('place') == entity) {
+      if (spans[i].getAttribute('place') == entityName) {
           spans[i].classList.add('place-bg');
       }
     }
