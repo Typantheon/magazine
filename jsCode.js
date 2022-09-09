@@ -59,10 +59,9 @@ function highlight(entity) {
 /*documentation Selector */
 $(function () {
     $('.stylesListItem').click(function () {
-    $('#documentationSelector').find('.active').removeClass('active');
-    $(this).addClass("active");
-    movePointer($(this));
-    showText();
+        var index = $(this).parent().children().index(this);
+        var translation = index * 7.5
+        $("#selector").animate({left: translation +'%'});
   });
 });
 
@@ -77,4 +76,5 @@ function movePointer(ele) {
     left: totalelement + parentScroll });
 
 }
+
 
