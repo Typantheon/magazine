@@ -189,6 +189,7 @@ section > p , .documentationParagraph p {
 .documentationParagraph {
  display:none;
  padding: 0.5em;
+ max-height: 70vh;
  overflow: auto;
 }
 .active {
