@@ -65,7 +65,7 @@ $(function () {
         $("#selector").animate({left: translation +'%'});
         $("#documentation").find(".active").removeClass("active");
         console.log( $( ".documentationParagraph" ).get( secondIndex) );
-        $(".documentationParagraph").get(secondIndex).addClass("active");
+        $(".documentationParagraph").get(secondIndex).classList.add("active");
   });
 });
 
