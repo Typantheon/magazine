@@ -214,9 +214,8 @@ section > p , .documentationParagraph p {
  height: 450px;
 }
 #img-container-3 > img {
- margin-left: auto;
- margin-right:auto;
- width: 35%;
+ margin-left: 32%;
+ width: 36%;
 }
 .greater {
  font-size: 1.2em;
