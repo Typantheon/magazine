@@ -60,7 +60,6 @@
             <p>Look for Named Entities</p>
             <hr>
             <div id="entities">
-                <ul><li><span class='bolder'>Places:</li><li onclick="highlight('athens')">Athens</li><li onclick="highlight('crete')">Crete</li><li>Knossos</li><li>Lemnos</li><li>Mount Olympus</li></ul>
             </div>
         </div>
         <button id="dyonisus">Dyonisus</button>
@@ -76,6 +75,8 @@
                 $("#dyonisus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/dyonisus.html");
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Dionysus, Greek god of wine and revelry, was more than just a 'party god'</li><li><span class='bolder'>Author:</span> David Hernandez de La Fuente</li><li><span class='bolder'>Published:</span> 25 May 2022</li><li><span class='bolder'>Publisher:</span> National Geographic</li></ul>");
+                    $("entities").html("<ul><li><span class='bolder'>Places:</li><li onclick='highlight(this)'>Athens</li><li onclick='highlight(this)'>Crete</li><li>Knossos</li><li>Lemnos</li><li>Mount Olympus</li></ul>
+
                 });
                 $("#hephaestus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/hephaestus.html");
