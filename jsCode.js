@@ -59,11 +59,11 @@ function highlight(entity) {
 /*documentation Selector */
 $(function () {
     $('.stylesListItem').click(function () {
-        consol.log('hi');
+        console.log('hi');
         var index = $(this).parent().children().index(this);
-        consol.log(index);
+        console.log(index);
         var translation = index * 7.5;
-        consol.log(translation);
+        console.log(translation);
         $("#selector").animate({left: translation +'%'});
   });
 });
