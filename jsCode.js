@@ -55,3 +55,26 @@ function highlight(entity) {
       }
     }
 }
+
+/*documentation Selector */
+$(function () {
+    $('.style-instance').click(function () {
+    $('#documentationSelector').find('.active').removeClass('active');
+    $(this).addClass("active");
+    movePointer($(this));
+    showText();
+  });
+});
+
+function movePointer(ele) {
+
+  var parentScroll = $("#stylesList").scrollLeft();
+  var offset = $(ele).offset().left - $('#stylesList').offset().left;
+  var totalelement = offset + $(ele).outerWidth() / 2;
+
+  var rt = $(ele).offset().left - $('#documentationWrapper').offset().left + $(ele).outerWidth() / 2;
+  $('#selector').animate({
+    left: totalelement + parentScroll });
+
+}
+
