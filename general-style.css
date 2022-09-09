@@ -258,3 +258,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
     padding-bottom: 0;
     padding-right: 3px;
 }
+
+.place-bg {
+    background-color: #90EE90;
+}
