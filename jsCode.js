@@ -60,11 +60,11 @@ function highlight(entity) {
 $(function () {
     $('.stylesListItem').click(function () {
         var index = $(this).parent().children().index(this);
-        var secondIndex = index + 1
+        var secondIndex = index - 1
         var translation = 7.5 + ((index - 1) * 15);
         $("#selector").animate({left: translation +'%'});
         $("#documentation").find(".active").removeClass("active");
-        console.log( $( ".documentationParagraph" ).get( -1 ) );
+        console.log( $( ".documentationParagraph" ).get( secondIndex) );
   });
 });
 
