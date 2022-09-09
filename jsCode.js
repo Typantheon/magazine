@@ -44,7 +44,7 @@ function addStylesheet(fileName) {
 
 function highlight(entity) {
     console.log("Hi"); 
-    console.log(entity.name); 
+    console.log(entity.getAttribute('name')); 
     var entityName = entity.name;
     const spans = document.getElementsByTagName("span");
     for (let i = 0; i < spans.length; i++) {
