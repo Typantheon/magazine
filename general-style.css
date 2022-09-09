@@ -187,7 +187,8 @@ section > p {
 }
 
 .documentationParagraph {
- display:none
+ display:none;
+ padding: 0.5em;
 }
 .active {
  display:block !important;
@@ -204,10 +205,10 @@ section > p {
  object-fit: cover;
 }
 #img-container-1 > img {
- max-width: 200px;
+ height: 200px;
 }
 #img-container-2 > img {
- max-width: 450px;
+ height: 450px;
 }
 .greater {
  font-size: 1.2em;
