@@ -59,23 +59,14 @@ function highlight(entity) {
 /*documentation Selector */
 $(function () {
     $('.stylesListItem').click(function () {
+        consol.log('hi');
         var index = $(this).parent().children().index(this);
+        consol.log(index);
         var translation = index * 7.5;
         consol.log(translation);
         $("#selector").animate({left: translation +'%'});
   });
 });
 
-function movePointer(ele) {
-
-  var parentScroll = $("#stylesList").scrollLeft();
-  var offset = $(ele).offset().left - $('#stylesList').offset().left;
-  var totalelement = offset + $(ele).outerWidth() / 2;
-
-  var rt = $(ele).offset().left - $('#documentationWrapper').offset().left + $(ele).outerWidth() / 2;
-  $('#selector').animate({
-    left: totalelement + parentScroll });
-
-}
 
 
