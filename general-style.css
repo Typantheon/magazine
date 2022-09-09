@@ -176,7 +176,7 @@ section > p {
 }
 #selector {
   position: relative;
-  margin-left: 7.5%;
+  left: 7.5%;
   top: -1px;
   width: 0;
   height: 0;
