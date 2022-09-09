@@ -64,7 +64,7 @@ $(function () {
         var translation = 7.5 + ((index - 1) * 15);
         $("#selector").animate({left: translation +'%'});
         $("#documentation").find(".active").removeClass("active");
-        $(".documentationParagraph").get(secondIndex).addClass("active");
+        $(".documentationParagraph")[secondIndex].addClass("active");
   });
 });
 
