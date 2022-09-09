@@ -59,12 +59,13 @@ function highlight(entity) {
 /*documentation Selector */
 $(function () {
     $('.stylesListItem').click(function () {
-        console.log('hi');
         var index = $(this).parent().children().index(this);
-        console.log(index);
+        var secondIndex = index + 1
         var translation = 7.5 + ((index - 1) * 15);
-        console.log(translation);
         $("#selector").animate({left: translation +'%'});
+        $(".documentationParagraph").find(".active").removeClass("active");
+        $(".documentationParagraph").find(".active").fadeOut();
+        $(".documentationParagraph:eq(secondIndex)").fadeIn();
   });
 });
 
