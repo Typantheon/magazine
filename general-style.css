@@ -207,17 +207,24 @@ section > p , .documentationParagraph p {
  object-fit: cover;
  object-position: center;
 }
+#img-container-8 > img {
+ width: 24.5%;
+ height: 200px;
+ display: inline-block;
+ object-fit: cover;
+ object-position: center;
+}
 #img-container-1 > img {
  height: 200px;
 }
 #img-container-2 > img {
  height: 450px;
 }
-#img-container-3 > img, #img-container-4 > img, #img-container-6 > img {
+#img-container-3 > img, #img-container-4 > img, #img-container-6 > img, #img-container-11 > img {
  margin-left: 32%;
  width: 36%;
 }
-#img-container-5 > img {
+#img-container-5 > img, #img-container-12 > img {
  margin-left: 15%;
  width: 70%;
 }
