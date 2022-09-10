@@ -35,7 +35,7 @@ nav {
  /* the article */
 
 #article-inner img {
-    filter: sepia(30%);
+    filter: sepia(40%);
     margin-bottom: 1em;
 }
 
