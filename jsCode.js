@@ -60,7 +60,7 @@ function highlight(entity) {
 
 $(function () { 
     $('.badge').click(function () {
-        var index = ($(this).parent().children().index(this)) - 1;
+        var index = $(this).parent().children().index(this);
         $("#entities").find(".active").removeClass("active");
         $(".entities-list").get(index).classList.add("active");
   });
