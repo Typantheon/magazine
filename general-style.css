@@ -160,8 +160,8 @@ section > p , .documentationParagraph p {
 }
 
 #documentationSelector {
-  border-bottom: 1px solid #04151f;
-  border-top: 1px solid #04151f;
+  border-bottom: 1px solid #748484;
+  border-top: 1px solid #748484;
   position: relative;
   margin: 0px;
 }
@@ -182,7 +182,7 @@ section > p , .documentationParagraph p {
   height: 0;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-top: 6px solid #04151f;
+  border-top: 6px solid #748484;
   transition: transform 0.6s ease;
 }
 
