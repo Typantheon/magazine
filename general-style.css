@@ -339,6 +339,18 @@ input[type="checkbox"]:checked ~ #articleToRead{
     padding-right: 3px;
 }
 
+.badge {
+   display: inline-block;
+   list-style-type: none;
+   padding-left: 0.5em;
+   margin-left: 0.5em;
+   padding-bottom: 0;
+   background-color: #f9f9f9;
+   border-radius: 5px;
+   color: #333 !important;
+}
+
+
 .place-bg {
     background-color: #90EE90;
     opacity:0;
