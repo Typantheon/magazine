@@ -232,6 +232,11 @@ section > p , .documentationParagraph p {
  margin-left: 41%;
  width: 18%;
 }
+#img-container-9 > img, #img-container-10 > img {
+ width:49.5%;
+ height: 250px;
+}
+
 .greater {
  font-size: 1.2em;
  padding-left: 0.5em;
