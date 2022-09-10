@@ -42,6 +42,8 @@ function addStylesheet(fileName) {
     $('head').append(link);
 };
 
+/* metadata */
+
 function highlight(entity) {
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
@@ -56,6 +58,13 @@ function highlight(entity) {
     }
 }
 
+$(function () { 
+    $('.badge').click(function () {
+        var index = ($(this).parent().children().index(this)) - 1;
+        $("#entities").find(".active").removeClass("active");
+        $(".entities-list").get(index).classList.add("active");
+        
+
 /*documentation Selector */
 $(function () {
     $('.stylesListItem').click(function () {
@@ -64,7 +73,6 @@ $(function () {
         var translation = 7.5 + ((index - 1) * 15);
         $("#selector").animate({left: translation +'%'});
         $("#documentation").find(".active").removeClass("active");
-        console.log( $( ".documentationParagraph" ).get( secondIndex) );
         $(".documentationParagraph").get(secondIndex).classList.add("active");
   });
 });
