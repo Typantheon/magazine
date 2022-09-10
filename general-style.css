@@ -340,7 +340,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
 }
 
 .entities-list {
-  opacitiy: 0;
+  display: none;
 }
 
 .badge {
