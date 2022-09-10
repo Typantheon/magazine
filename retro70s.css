@@ -35,7 +35,7 @@ nav {
  /* the article */
 
 #article-inner img {
-    filter: sepia(70%);
+    filter: sepia(30%);
     margin-bottom: 1em;
 }
 
@@ -111,7 +111,7 @@ h1 {
     height: 30em;
     border-radius: 3px;
     border: solid 3px #333;
-    filter: sepia(100%);
+    filter: sepia(40%);
 }
 
 #over-img-1 {
