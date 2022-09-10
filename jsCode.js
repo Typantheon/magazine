@@ -8,7 +8,7 @@ function changeStylesheet(css) {
         addStylesheet(css);
     }
     switch (css){
-        case '../retro70s.css':
+        case '../retro60s.css':
             var innerArticle = document.getElementById('article-inner');
             const img1 = document.createElement('img'), img2 = document.createElement('img');
             img1.setAttribute('id', 'over-img-1');
