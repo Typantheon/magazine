@@ -63,7 +63,8 @@ $(function () {
         var index = ($(this).parent().children().index(this)) - 1;
         $("#entities").find(".active").removeClass("active");
         $(".entities-list").get(index).classList.add("active");
-        
+  });
+});        
 
 /*documentation Selector */
 $(function () {
