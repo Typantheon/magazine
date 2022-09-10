@@ -339,10 +339,6 @@ input[type="checkbox"]:checked ~ #articleToRead{
     padding-right: 3px;
 }
 
-.entities-list > ul {
-   display:none;
-}
-
 .badge {
    display: inline-block;
    list-style-type: none;
