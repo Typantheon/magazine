@@ -213,9 +213,17 @@ section > p , .documentationParagraph p {
 #img-container-2 > img {
  height: 450px;
 }
-#img-container-3 > img {
+#img-container-3 > img, #img-container-4 > img, #img-container-6 > img {
  margin-left: 32%;
  width: 36%;
+}
+#img-container-5 > img {
+ margin-left: 15%;
+ width: 70%;
+}
+#img-container-7 > img {
+ margin-left: 36%;
+ width: 28%;
 }
 .greater {
  font-size: 1.2em;
