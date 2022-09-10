@@ -342,7 +342,8 @@ input[type="checkbox"]:checked ~ #articleToRead{
 .badge {
    display: inline-block;
    list-style-type: none;
-   padding-left: 0.5em;
+   padding-left: 0.3em;
+   padding-right: 0.3em;
    margin-left: 0.5em;
    padding-bottom: 0;
    background-color: #f9f9f9;
@@ -350,8 +351,10 @@ input[type="checkbox"]:checked ~ #articleToRead{
    border: 1px #d3d3d3 solid;
    color: #333 !important;
 }
-
-
+.badge:hover, .activeBadge  {
+   background-color: #e0e0e0
+}
+	   
 .place-bg {
     background-color: #90EE90;
     opacity:0;
