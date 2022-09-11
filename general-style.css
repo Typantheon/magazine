@@ -390,20 +390,32 @@ input[type="checkbox"]:checked ~ #articleToRead{
   display: inline-block;
 }
 
+#row-1, #row-2 {
+ margin-top: 20px;
+}
+
 .image-container > div > img {
   width: 80%;
   height: 350px;
   margin-left: 10%;
+  object-fit: cover;
 }
 .image-container > div > p {
   width: 80%;
   margin-left: 10%;
 }
 
+.image-container > div > p > a {
+  color: #B2B2FF;
+}
+
 .image-container > div > button {
   width: 30%;
   margin-left: 35%;
   border-radius: 5px;
+  border: 1px #d3d3d3 solid;
+  color: #333;
+  padding: 0.5em;
 }
 
 
