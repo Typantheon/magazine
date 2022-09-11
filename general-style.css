@@ -286,10 +286,17 @@ table {
    -webkit-transition:all 200ms ease-in;
    -o-transition:all 200ms ease-in;
    transition:all 200ms ease-in;
-   z-index: 600;
    height: 100vh;
    font-family: 'Lora', sans-serif !important;
    font-size: 18px !important;
+}
+
+#metadata-viewer {
+   z-index: 600;
+}
+
+#article-aside {
+   z-index: 598;
 }
 
 #metadata-viewer > p {
@@ -320,19 +327,21 @@ label{
     -webkit-transition:all 200ms ease-in;
     -o-transition:all 200ms ease-in;
     transition:all 200ms ease-in;
-    z-index:601;
+    ;
 }
 
 i {
    color:#fff;
 }
 
-#metadata-appear + label {
+#firstLabel {
      bottom:10px;
+     z-index:601;
 }
 #secondLabel {
      display:none;
      bottom: 57px;
+     z-index: 599;
 }
 
 #article-aside-appear[type="checkbox"], #metadata-appear[type="checkbox"] {
