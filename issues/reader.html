@@ -60,12 +60,12 @@
             <div id="entities">
                 <ul id="badgeList">
                     <li class="badge">Places</li>
-                    <li class="badge">People</li>
+                    <li class="badge">Cultures</li>
                     <li class="badge">Domains</li>
                 </ul>
                 <div class="entities-list" id="placesList">
                 </div>
-                <div class="entities-list" id="personList">
+                <div class="entities-list" id="culturesList">
                 </div>
                 <div class="entities-list" id="domainList">
                 </div>
@@ -139,6 +139,7 @@
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Dionysus, Greek god of wine and revelry, was more than just a 'party god'</li><li><span class='bolder'>Author:</span> David Hernandez de La Fuente</li><li><span class='bolder'>Published:</span> 25 May 2022</li><li><span class='bolder'>Publisher:</span> National Geographic</li></ul>");
+                    $("#culturesList").html("<ul><li name='christianity'>Christianity</li><li name='classical'>Classical</li><li name='greco-roman'>Greco-Roman</li><li name='hellenic'>Hellenic</li><li name='mycenaean'>Mycenaean</li><li name='paganism'>Paganism</li><li name='roman'>Roman</li></ul>");
                 });
                 $(".hephaestus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/hephaestus.html");
