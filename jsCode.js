@@ -43,17 +43,28 @@ function addStylesheet(fileName) {
 };
 
 /* metadata */
+$(function () { 
+    $("[name]").click(function () {
+        highlight(this);
+    });
+}); 
 
 function highlight(entity) {
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
     for (let i = 0; i < spans.length; i++) {
       if (spans[i].getAttribute('data-label') == entityName) {
-          spans[i].classList.add('place-bg');
+          if (spans[i].getAttribute('class') =='place') {
+              spans[i].classList.add('place-bg');
+          }
+          else if (spans[i].getAttribute('class') =='culture') {
+              spans[i].classList.add('culture-bg');
+          }
           spans[i].scrollIntoView({behavior: 'smooth', block: "center"}, true);
       }
       else {
           spans[i].classList.remove('place-bg');
+          spans[i].classList.remove('culture-bg');
       }
     }
 }
