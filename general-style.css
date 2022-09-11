@@ -315,7 +315,7 @@ label{
     font-size:2em;
     line-height:1.1em;
     position:fixed;
-    top:160px;
+    bottom:10px;
     left:10px;
     -moz-transition:all 200ms ease-in;
     -webkit-transition:all 200ms ease-in;
