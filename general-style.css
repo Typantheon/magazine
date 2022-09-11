@@ -388,6 +388,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
 .image-container > div {
   width: 33%;
   display: inline-block;
+  margin-bottom: 1em;
 }
 
 #row-1, #row-2 {
@@ -396,9 +397,10 @@ input[type="checkbox"]:checked ~ #articleToRead{
 
 .image-container > div > img {
   width: 80%;
-  height: 350px;
+  height: 300px;
   margin-left: 10%;
   object-fit: cover;
+  border-radius: 5px;
 }
 .image-container > div > p {
   width: 80%;
@@ -410,12 +412,16 @@ input[type="checkbox"]:checked ~ #articleToRead{
 }
 
 .image-container > div > button {
-  width: 30%;
+  width: 32.5%;
   margin-left: 35%;
   border-radius: 5px;
   border: 1px #d3d3d3 solid;
   color: #333;
   padding: 0.5em;
+}
+
+.image-container > div > button:hover {
+  background-color: #e0e0e0;
 }
 
 
