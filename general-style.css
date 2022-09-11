@@ -383,4 +383,28 @@ input[type="checkbox"]:checked ~ #articleToRead{
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
+/* select article */
+.image-container > div {
+  width: 33%;
+  display: inline-block;
+}
+
+.image-container > div > img {
+  width: 80%;
+  height: 350px;
+  margin-left: 10%;
+}
+.image-container > div > p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.image-container > div > button {
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 5px;
+}
+
+
     
