@@ -48,6 +48,7 @@ $(function () {
 }); 
 
 function highlight(entity) {
+    console.log(entity);
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
     for (let i = 0; i < spans.length; i++) {
