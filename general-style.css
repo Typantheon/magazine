@@ -315,13 +315,20 @@ label{
     font-size:2em;
     line-height:1.1em;
     position:fixed;
-    bottom:10px;
     left:10px;
     -moz-transition:all 200ms ease-in;
     -webkit-transition:all 200ms ease-in;
     -o-transition:all 200ms ease-in;
     transition:all 200ms ease-in;
     z-index:601;
+}
+
+#metadata-appear {
+     bottom:10px;
+}
+#article-aside-appear {
+     display:none;
+     bottom: 57px;
 }
 
 input[type="checkbox"]{
@@ -350,6 +357,15 @@ input[type="checkbox"]:checked ~ #articleToRead{
     padding-bottom: 0;
     padding-right: 3px;
 }
+
+#article-aside > ul {
+    font-size: 18px;
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 3px;
+}
+
 
 .entities-list {
   display: none;
