@@ -44,7 +44,11 @@ function addStylesheet(fileName) {
 
 /* metadata */
 $(function () { 
-    $("[name]").click(function(){highlight(this)});
+    $("[name]").click(function(){ 
+        console.log(this);
+        console.log($(this));
+        highlight($(this));
+    }); 
 }); 
 
 function highlight(entity) {
