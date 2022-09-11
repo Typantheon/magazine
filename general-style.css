@@ -310,7 +310,7 @@ label{
     width:42px;
     height:42px;
     line-height:42px;
-    color:#fff;
+    color:#fff !important;
     text-align:center;
     font-size:2em;
     line-height:1.1em;
@@ -321,6 +321,10 @@ label{
     -o-transition:all 200ms ease-in;
     transition:all 200ms ease-in;
     z-index:601;
+}
+
+i {
+   color:#fff;
 }
 
 #metadata-appear + label {
