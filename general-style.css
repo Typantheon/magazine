@@ -388,7 +388,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
 .image-container > div {
   width: 33%;
   display: inline-block;
-  margin-bottom: 1em;
+  margin-bottom: 2.5em;
 }
 
 #row-1, #row-2 {
@@ -408,7 +408,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
 }
 
 .image-container > div > p > a {
-  color: #B2B2FF;
+  color: #0da2ff;
 }
 
 .image-container > div > button {
@@ -424,5 +424,10 @@ input[type="checkbox"]:checked ~ #articleToRead{
   background-color: #e0e0e0;
 }
 
+#selectAnArticle {
+  padding-left: 3em;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
 
     
