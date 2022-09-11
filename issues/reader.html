@@ -117,27 +117,33 @@
             $(document).ready(function(){
                 $("#dyonisus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/dyonisus.html");
+                    $(".image-container").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Dionysus, Greek god of wine and revelry, was more than just a 'party god'</li><li><span class='bolder'>Author:</span> David Hernandez de La Fuente</li><li><span class='bolder'>Published:</span> 25 May 2022</li><li><span class='bolder'>Publisher:</span> National Geographic</li></ul>");
                 });
                 $("#hephaestus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/hephaestus.html");
+                    $(".image-container").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Hephaestus </li><li><span class='bolder'>Author:</span> Avi Kapach </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                     $("#placesList").html("<ul><li name='athens' onclick='highlight(this)'>Athens</li><li name='crete' onclick='highlight(this)'>Crete</li><li name='knossos' onclick='highlight(this)'>Knossos</li><li name='lemnos' onclick='highlight(this)'>Lemnos</li><li name='olympus' onclick='highlight(this)'>Mount Olympus</li></ul>");                
                 });
                 $("#cailleach").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/cailleach.html");
+                    $(".image-container").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> The Cailleach </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                 }); 
                 $("#loki").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/loki.html");
+                    $(".image-container").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Loki </li><li><span class='bolder'>Author:</span> Thomas Apel </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                 });  
                 $("#raijin").click(function(){
                     $("#articleToRead").load("raijin.html");
+                    $(".image-container").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Raijin </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                 });    
                 $("#quetzalcoatl").click(function(){
                     $("#articleToRead").load("quetzalcoatl.html");
+                    $(".image-container").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Quetzalcoatl </li><li><span class='bolder'>Author:</span> Evan Meehan </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                 });    
             });
