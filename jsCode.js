@@ -43,12 +43,10 @@ function addStylesheet(fileName) {
 };
 
 /* metadata */
-$(function () { 
-    $(".entities-list li").click(function(){ 
-        console.log(this);
-        console.log($(this));
-        highlight($(this));
-    }); 
+$(".entities-list li").click(function(){ 
+    console.log(this);
+    console.log($(this));
+    highlight($(this));
 }); 
 
 function highlight(entity) {
