@@ -326,18 +326,18 @@ label{
 #metadata-appear + label {
      bottom:10px;
 }
-#article-aside-appear + label {
+#secondLabel {
      display:none;
      bottom: 57px;
 }
 
-#article-aside-appear[type="checkbox"]{
+#article-aside-appear[type="checkbox"] {
     display:none;
 }
 #metadata-appear[type="checkbox"]:checked ~ #metadata-viewer, #article-aside-appear[type="checkbox"]:checked ~ #article-aside {
     margin:0;
 }
-#metadata-appear[type="checkbox"]:checked ~ #metadata-appear + label, #article-aside-appear[type="checkbox"]:checked ~ #article-aside-appear + label {
+#metadata-appear[type="checkbox"]:checked ~ #firstLabel, #article-aside-appear[type="checkbox"]:checked ~ #secondLabel {
     left:260px;
 }
 input[type="checkbox"]:checked ~ #articleToRead{
