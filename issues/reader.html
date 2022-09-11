@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../general-style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://typantheon.github.io/magazine/jsCode.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     </head>
     <body>
         <nav>
@@ -70,25 +71,41 @@
                 </div>
             </div>
         </div>
+        <input type="checkbox" id="article-aside-appear" />
+        <label for="article-aside-appear">
+            <i class='fas fa-th'></i>
+        </label>
+        <div id="article-aside">
+            <p>Select an article</p>
+            <hr>
+            <ul>
+                <li class="dyonisus">Dionysus, Greek god of wine and revelry, was more than just a 'party god'</li>
+                <li class="hephaestus">Hephaestus</li>
+                <li class="cailleach">Cailleach</li>
+                <li class="loki">Loki</li>
+                <li class="raijin">Raijin</li>
+                <li class="quetzalcoatl">Quetzalcoatl</li>
+            </ul>            
+        </div>
         <h2 class="title-section" id="selectAnArticle">Select an article...</h2>
         <div class="image-container" id="row1">
             <div id="article-1">
                 <img src="https://typantheon.github.io/magazine/images/bg.jpg">
                 <p><a target="_blank" href="https://www.nationalgeographic.com/history/history-magazine/article/dionysus-greek-god-of-wine-was-more-than-just-a-party-god#:~:text=Newsletters-,Dionysus%2C%20Greek%20god%20of%20wine%20and%20revelry%2C%20was%20more%20than,until%20the%20dawn%20of%20Christianity.">Dionysus, Greek god of wine and revelry, was more than just a 'party god'</a><br>
                 By David Hernandez de La Fuente<br></p>
-                <button id="dyonisus">READ</button>
+                <button class="dyonisus">READ</button>
             </div>
             <div id="article-2">
                 <img src="https://media.mythopedia.com/1LlQCChODpeCmveAy1yOh1/0709ac1cfd6312d5e7dc37b0edf7ba0d/hephaestus-greek-god-of-fire.jpg?auto=format&fit=max&w=960&q=80">
                 <p><br><a target="_blank" href="https://mythopedia.com/topics/hephaestus">Hephaestus</a><br>
                 By Avi Kapach</p>
-                <button id="hephaestus">READ</button>
+                <button class="hephaestus">READ</button>
             </div>
             <div id="article-3">
                 <img src="https://media.mythopedia.com/41viSejxprXZ0qcxMC4xpJ/1d6012f890ff9bc158b552252a65b0d7/cailleach-celtic-goddess-of-winter.jpg?auto=format&fit=max&w=1280&q=80">
                 <p><br><a target="_blank" href="https://mythopedia.com/topics/cailleach">Cailleach</a><br>
                 By Gregory Wright</p>
-                <button id="cailleach">READ</button>
+                <button class="cailleach">READ</button>
             </div>
         </div>
         <div class="image-container" id="row2">
@@ -96,19 +113,19 @@
                 <img src="https://media.mythopedia.com/6YyDSK6USIhPkZQck9XUKF/9ef32e94c607d4492778232f4220f891/loki-norse-trickster-god.jpg?auto=format&fit=max&w=960&q=80"> 
                 <p><br><a target="_blank" href="https://mythopedia.com/topics/loki">Loki</a><br>
                 By Thomas Apel</p>
-                <button id="loki">READ</button>
+                <button class="loki">READ</button>
             </div>
             <div id="article-5">
                 <img src="https://media.mythopedia.com/4976yWyAax6EWmkxIu3PUA/f3953147ce8d6fc789511aa234ea2684/raijin-japanese-god-of-thunder.jpg?auto=format&fit=max&w=500&q=80">
                 <p><br><a target="_blank" href="https://mythopedia.com/topics/raijin">Raijin</a><br>
                 By Gregory Wright</p>
-                <button id="raijin">READ</button>
+                <button class="raijin">READ</button>
             </div>
             <div id="article-6">
                 <img src="https://media.mythopedia.com/4mAfaPp5etAvlzGBZcKByx/644742afce896c117a31e6df6b414db5/quetzalcoatl-aztec-feathered-serpent.jpg?auto=format&fit=max&w=960&q=80">
                 <p><br><a target="_blank" href="https://mythopedia.com/topics/quetzalcoatl">Quetzalcoatl</a><br>
                 By Evan Meehan</p>
-                <button id="quetzalcoatl">READ</button>
+                <button class="quetzalcoatl">READ</button>
             </div>
         </div>
 
@@ -116,39 +133,45 @@
         </section>
         <script>
             $(document).ready(function(){
-                $("#dyonisus").click(function(){
+                $(".dyonisus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/dyonisus.html");
+                    $("#article-aside-appear").show();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Dionysus, Greek god of wine and revelry, was more than just a 'party god'</li><li><span class='bolder'>Author:</span> David Hernandez de La Fuente</li><li><span class='bolder'>Published:</span> 25 May 2022</li><li><span class='bolder'>Publisher:</span> National Geographic</li></ul>");
                 });
-                $("#hephaestus").click(function(){
+                $(".hephaestus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/hephaestus.html");
+                    $("#article-aside-appear").show();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Hephaestus </li><li><span class='bolder'>Author:</span> Avi Kapach </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                     $("#placesList").html("<ul><li name='athens' onclick='highlight(this)'>Athens</li><li name='crete' onclick='highlight(this)'>Crete</li><li name='knossos' onclick='highlight(this)'>Knossos</li><li name='lemnos' onclick='highlight(this)'>Lemnos</li><li name='olympus' onclick='highlight(this)'>Mount Olympus</li></ul>");                
                 });
-                $("#cailleach").click(function(){
+                $(".cailleach").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/cailleach.html");
+                    $("#article-aside-appear").show();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> The Cailleach </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                 }); 
-                $("#loki").click(function(){
+                $(".loki").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/loki.html");
+                    $("#article-aside-appear").show();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Loki </li><li><span class='bolder'>Author:</span> Thomas Apel </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                 });  
-                $("#raijin").click(function(){
+                $(".raijin").click(function(){
                     $("#articleToRead").load("raijin.html");
+                    $("#article-aside-appear").show();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Raijin </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                 });    
-                $("#quetzalcoatl").click(function(){
+                $(".quetzalcoatl").click(function(){
                     $("#articleToRead").load("quetzalcoatl.html");
+                    $("#article-aside-appear").show();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Quetzalcoatl </li><li><span class='bolder'>Author:</span> Evan Meehan </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
