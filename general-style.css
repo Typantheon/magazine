@@ -323,21 +323,21 @@ label{
     z-index:601;
 }
 
-#metadata-appear {
+#metadata-appear + label {
      bottom:10px;
 }
-#article-aside-appear {
+#article-aside-appear + label {
      display:none;
      bottom: 57px;
 }
 
-input[type="checkbox"]{
+#article-aside-appear[type="checkbox"]{
     display:none;
 }
-input[type="checkbox"]:checked ~ #metadata-viewer, input[type="checkbox"]:checked ~ #article-aside {
+#metadata-appear[type="checkbox"]:checked ~ #metadata-viewer, #article-aside-appear[type="checkbox"]:checked ~ #article-aside {
     margin:0;
 }
-input[type="checkbox"]:checked ~ label{
+#metadata-appear[type="checkbox"]:checked ~ #metadata-appear + label, #article-aside-appear[type="checkbox"]:checked ~ #article-aside-appear + label {
     left:260px;
 }
 input[type="checkbox"]:checked ~ #articleToRead{
