@@ -272,7 +272,7 @@ table {
 
 /* metadata viewer */
 
-#metadata-viewer {
+#metadata-viewer, #article-aside {
    padding: 18px !important;
    background-color: #fffdf4;
    position:fixed;
@@ -297,7 +297,7 @@ table {
    width: 100% !important;
 }
 
-#metadata-viewer > hr{
+#metadata-viewer > hr, #article-aside > hr {
    color: #efd6ac !important;
    width: 80% !important;
    background-image: none!important;
@@ -334,7 +334,7 @@ label{
 input[type="checkbox"]{
     display:none;
 }
-input[type="checkbox"]:checked ~ #metadata-viewer{
+input[type="checkbox"]:checked ~ #metadata-viewer, input[type="checkbox"]:checked ~ #article-aside {
     margin:0;
 }
 input[type="checkbox"]:checked ~ label{
