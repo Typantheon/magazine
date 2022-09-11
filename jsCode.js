@@ -1,3 +1,16 @@
+window.onscroll = function() {myFunction()};
+
+var list = document.getElementById("themes-list");
+var sticky = list.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    list.classList.add("sticky");
+  } else {
+    list.classList.remove("sticky");
+  }
+}
+
 function changeStylesheet(css) {
     const stylesheets = $("[rel='stylesheet']");
     if (stylesheets.length == 2) {
