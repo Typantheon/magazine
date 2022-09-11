@@ -44,7 +44,7 @@ function addStylesheet(fileName) {
 
 /* metadata */
 $(function () { 
-    $("[name]").click(function(){ 
+    $(".entities-list li").click(function(){ 
         console.log(this);
         console.log($(this));
         highlight($(this));
