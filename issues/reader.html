@@ -73,12 +73,15 @@
         <div class="image-container" id="row1">
             <div id="article-1">
                 <img src="https://typantheon.github.io/magazine/images/bg.jpg">
-                <p>Dionysus, Greek god of wine and revelry, was more than just a 'party god'<br>
+                <p><a target="_blank" href="https://www.nationalgeographic.com/history/history-magazine/article/dionysus-greek-god-of-wine-was-more-than-just-a-party-god#:~:text=Newsletters-,Dionysus%2C%20Greek%20god%20of%20wine%20and%20revelry%2C%20was%20more%20than,until%20the%20dawn%20of%20Christianity.">Dionysus, Greek god of wine and revelry, was more than just a 'party god'</a><br>
                 By David Hernandez de La Fuente<br></p>
                 <button id="dyonisus">READ</button>
             </div>
             <div id="article-2">
                 <img src="https://media.mythopedia.com/1LlQCChODpeCmveAy1yOh1/0709ac1cfd6312d5e7dc37b0edf7ba0d/hephaestus-greek-god-of-fire.jpg?auto=format&fit=max&w=960&q=80">
+                <p><a target="_blank" href="https://mythopedia.com/topics/hephaestus">Hephaestus</a><br>
+                By Avi Kapach</p>
+                <button id="hephaestus">READ</button>
             </div>
             <div id="article-3">
                 <img src="https://media.mythopedia.com/41viSejxprXZ0qcxMC4xpJ/1d6012f890ff9bc158b552252a65b0d7/cailleach-celtic-goddess-of-winter.jpg?auto=format&fit=max&w=1280&q=80">
@@ -97,7 +100,7 @@
         </div>
 
         
-        <button id="hephaestus">Hephaestus</button>
+        
         <button id="cailleach">Cailleach</button>
         <button id="loki">Loki</button>
         <button id="raijin">Raijin</button>
@@ -112,7 +115,7 @@
                 });
                 $("#hephaestus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/hephaestus.html");
-                    $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Hephaestus </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
+                    $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Hephaestus </li><li><span class='bolder'>Author:</span> Avi Kapach </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
                     $("#placesList").html("<ul><li name='athens' onclick='highlight(this)'>Athens</li><li name='crete' onclick='highlight(this)'>Crete</li><li name='knossos' onclick='highlight(this)'>Knossos</li><li name='lemnos' onclick='highlight(this)'>Lemnos</li><li name='olympus' onclick='highlight(this)'>Mount Olympus</li></ul>");                
                 });
                 $("#cailleach").click(function(){
