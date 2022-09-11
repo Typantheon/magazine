@@ -331,7 +331,7 @@ label{
      bottom: 57px;
 }
 
-#article-aside-appear[type="checkbox"] {
+#article-aside-appear[type="checkbox"], #metadata-appear[type="checkbox"] {
     display:none;
 }
 #metadata-appear[type="checkbox"]:checked ~ #metadata-viewer, #article-aside-appear[type="checkbox"]:checked ~ #article-aside {
