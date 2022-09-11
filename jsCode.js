@@ -1,8 +1,8 @@
 function changeStylesheet(css) {
     const stylesheets = $("[rel='stylesheet']");
-    if (stylesheets.length == 2) {
-        var style = stylesheets[1].getAttribute('href');
-        stylesheets[1].setAttribute('href', css);
+    if (stylesheets.length == 3) {
+        var style = stylesheets[2].getAttribute('href');
+        stylesheets[2].setAttribute('href', css);
     }
     else {
         addStylesheet(css);
