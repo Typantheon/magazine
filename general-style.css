@@ -364,11 +364,14 @@ input[type="checkbox"]:checked ~ #articleToRead{
 
 #article-aside > ul {
     font-size: 18px;
-    padding-left: 0;
+    list-style-type: none;
+    padding-left: 0.3em;
     padding-bottom: 0;
     padding-right: 3px;
 }
-
+#article-aside > ul > li {
+    margin-bottom: 4px;
+}
 
 .entities-list {
   display: none;
