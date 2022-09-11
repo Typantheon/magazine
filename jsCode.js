@@ -43,11 +43,6 @@ function addStylesheet(fileName) {
 };
 
 /* metadata */
-$(".entities-list li").click(function(){ 
-    console.log(this);
-    console.log($(this));
-    highlight($(this));
-}); 
 
 function highlight(entity) {
     console.log(entity);
