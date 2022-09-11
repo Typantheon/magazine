@@ -410,6 +410,14 @@ input[type="checkbox"]:checked ~ #articleToRead{
     animation-fill-mode: forwards;
 }
 
+.culture-bg {
+    background-color: #63e5ff;
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes background-opacity {
   from {opacity: 0;}
   to {opacity: 1;}
