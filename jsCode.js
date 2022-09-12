@@ -76,7 +76,6 @@ function highlight(entity) {
             }
             if (i < a) {
                 a = i
-                console.log(a)
                 spans[a].scrollIntoView({ behavior: 'smooth', block: "center" }, true);
             }
         }
