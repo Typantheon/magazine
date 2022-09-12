@@ -380,7 +380,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
     padding-right: 3px;
 }
 #article-aside > ul > li {
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .entities-list {
