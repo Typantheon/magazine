@@ -48,7 +48,7 @@ function highlight(entity) {
     console.log(entity);
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
-    var a = 100;
+    var a = 200;
     for (let i = 0; i < spans.length; i++) {
         if (spans[i].getAttribute('data-sort') == entityName) {
             switch (spans[i].getAttribute('class')) {
@@ -76,6 +76,7 @@ function highlight(entity) {
             }
             if (i < a) {
                 a = i
+                console.log(a)
                 spans[a].scrollIntoView({ behavior: 'smooth', block: "center" }, true);
             }
         }
