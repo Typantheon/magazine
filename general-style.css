@@ -387,31 +387,8 @@ input[type="checkbox"]:checked ~ #articleToRead{
   display: none;
 }
 
-#selectMetadata {
-   padding:0.5em;
-   margin-left: 0.5em;
-   padding-bottom: 0;
-   background-color: #f9f9f9;
-   border-radius: 5px;
-   border: 1px #333 solid;
-   color: #333 !important;
-}
-
-#badgeList {
-   display:none;
-   border-radius: 5px;
-   border: 1px #d3d3d3 solid;
-}
-
-#selectMetadata:hover {
-   background-color: #e0e0e0;
-}
-
-#selectMetadata:hover #badgeList {
-  display: block;
-}
-
 .badge {
+   display: inline-block;
    list-style-type: none;
    padding-left: 0.3em;
    padding-right: 0.3em;
