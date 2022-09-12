@@ -388,13 +388,12 @@ input[type="checkbox"]:checked ~ #articleToRead{
 }
 
 #selectMetadata {
-  padding-left: 0.3em;
-   padding-right: 0.3em;
+   padding:0.5em;
    margin-left: 0.5em;
    padding-bottom: 0;
    background-color: #f9f9f9;
    border-radius: 5px;
-   border: 1px #d3d3d3 solid;
+   border: 1px #333 solid;
    color: #333 !important;
 }
 
