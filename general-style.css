@@ -419,6 +419,14 @@ input[type="checkbox"]:checked ~ #articleToRead{
     animation-fill-mode: forwards;
 }
 
+.domain-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #DADADA;
+}
+
 .literature-bg {
     opacity:0;
     animation-name: background-opacity;
