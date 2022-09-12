@@ -48,7 +48,7 @@ function highlight(entity) {
     console.log(entity);
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
-    var a = 200;
+    var a = 300;
     for (let i = 0; i < spans.length; i++) {
         if (spans[i].getAttribute('data-sort') == entityName) {
             switch (spans[i].getAttribute('class')) {
