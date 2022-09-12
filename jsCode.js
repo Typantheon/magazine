@@ -48,15 +48,36 @@ function highlight(entity) {
     console.log(entity);
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
+    var a = 100;
     for (let i = 0; i < spans.length; i++) {
         if (spans[i].getAttribute('data-sort') == entityName) {
-            if (spans[i].getAttribute('class') == 'place') {
-                spans[i].classList.add('place-bg');
+            switch (spans[i].getAttribute('class') {
+                case 'place' :
+                    spans[i].classList.add('place-bg');
+                    break;
+                case'culture':
+                    spans[i].classList.add('culture-bg');
+                    break;
+                case'event':
+                    spans[i].classList.add('event-bg');
+                    break;
+                case'ritual':
+                    spans[i].classList.add('rituals-bg');
+                    break;
+                case'language':
+                    spans[i].classList.add('language-bg');
+                    break;
+                case'literature':
+                    spans[i].classList.add('literature-bg');
+                    break;
+                case'epithet':
+                    spans[i].classList.add('epithet-bg');
+                    break;
             }
-            else if (spans[i].getAttribute('class') == 'culture') {
-                spans[i].classList.add('culture-bg');
+            if (i < a) {
+                a = i
+                spans[a].scrollIntoView({ behavior: 'smooth', block: "center" }, true);
             }
-            spans[i].scrollIntoView({ behavior: 'smooth', block: "center" }, true);
         }
         else {
             spans[i].classList.remove('place-bg');
