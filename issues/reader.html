@@ -149,6 +149,9 @@
         </section>
         <script>
             $(document).ready(function(){
+                $("selectMetadata").click(function(){
+                    $("#badgeList").show();
+                });
                 $(".dyonisus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/dyonisus.html");
                     $("label").show();
