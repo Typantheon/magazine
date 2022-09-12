@@ -419,6 +419,39 @@ input[type="checkbox"]:checked ~ #articleToRead{
     animation-fill-mode: forwards;
 }
 
+.literature-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #ffea00;
+}
+
+.language-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #ff9933;
+}
+
+.rituals-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #cb3552;
+}
+
+.event-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #c2f3a4;
+}
+
+
 @keyframes background-opacity {
   from {opacity: 0;}
   to {opacity: 1;}
