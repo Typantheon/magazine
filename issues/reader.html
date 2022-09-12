@@ -59,15 +59,28 @@
             <hr>
             <div id="entities">
                 <ul id="badgeList">
-                    <li class="badge">Places</li>
                     <li class="badge">Cultures</li>
                     <li class="badge">Domains</li>
+                    <li class="badge">Epithets</li>
+                    <li class="badge">Events</li>
+                    <li class="badge">Languages</li>
+                    <li class="badge">Literature</li>
+                    <li class="badge">Places</li> 
+                    <li class="badge">Rituals</li>
                 </ul>
-                <div class="entities-list" id="placesList">
-                </div>
                 <div class="entities-list" id="culturesList">
                 </div>
                 <div class="entities-list" id="domainList">
+                </div>
+                <div class="entities-list" id="epithetList">
+                </div>
+                <div class="entities-list" id="eventList">
+                </div>
+                <div class="entities-list" id="langList">
+                </div>
+                <div class="entities-list" id="placesList">
+                </div>
+                <div class="entities-list" id="ritualsList">
                 </div>
             </div>
         </div>
@@ -147,7 +160,7 @@
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Hephaestus </li><li><span class='bolder'>Author:</span> Avi Kapach </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
-                    $("#placesList").html("<ul><li name='athens' onclick='highlight(this)'>Athens</li><li name='crete' onclick='highlight(this)'>Crete</li><li name='knossos' onclick='highlight(this)'>Knossos</li><li name='lemnos' onclick='highlight(this)'>Lemnos</li><li name='olympus' onclick='highlight(this)'>Mount Olympus</li></ul>");                
+                    $("#placesList").html("<ul><li name='athens' onclick='highlight(this)'>Athens</li><li name='attica' onclick='highlight(this)'>Attica</li><li name='corinth' onclick='highlight(this)'>Corinth</li><li name='crete' onclick='highlight(this)'>Crete</li><li name='greece' onclick='highlight(this)'>Greece</li><li name='knossos' onclick='highlight(this)'>Knossos</li><li name='lemnos' onclick='highlight(this)'>Lemnos</li><li name='etna' onclick='highlight(this)'>Mount Etna</li><li name='olympus' onclick='highlight(this)'>Mount Olympus</li><li name='rome' onclick='highlight(this)'>Rome</li><li name='sicily' onclick='highlight(this)'>Sicily</li></ul>");                
                 });
                 $(".cailleach").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/cailleach.html");
