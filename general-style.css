@@ -495,7 +495,8 @@ input[type="checkbox"]:checked ~ #articleToRead{
 }
 
 .image-container > div > p > a {
-  color: #0da2ff;
+  color: #04151f;
+  text-decoration-color: #efd6ac !important;
 }
 
 .image-container > div > button {
