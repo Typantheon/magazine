@@ -315,9 +315,9 @@ label{
     display:none;
     font-weight:700;
     background-color: #183a37;
-    width:42px;
-    height:42px;
-    line-height:42px;
+    width:46px;
+    height: 46px;
+    line-height:46px;
     border-radius: 50%;
     color:#fff !important;
     text-align:center;
@@ -341,7 +341,7 @@ i {
      z-index:601;
 }
 #secondLabel {
-     bottom: 57px;
+     bottom: 65px;
      z-index: 599;
 }
 
