@@ -7,7 +7,7 @@ function changeStylesheet(css) {
     else {
         addStylesheet(css);
     }
-    switch (css){
+    switch (css) {
         case '../retro60s.css':
             var innerArticle = document.getElementById('article-inner');
             const img1 = document.createElement('img'), img2 = document.createElement('img');
@@ -34,7 +34,7 @@ function changeStylesheet(css) {
 };
 
 function addStylesheet(fileName) {
-    var link = $("<link />",{
+    var link = $("<link />", {
         rel: "stylesheet",
         type: "text/css",
         href: fileName
@@ -49,29 +49,29 @@ function highlight(entity) {
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
     for (let i = 0; i < spans.length; i++) {
-      if (spans[i].getAttribute('data-label') == entityName) {
-          if (spans[i].getAttribute('class') =='place') {
-              spans[i].classList.add('place-bg');
-          }
-          else if (spans[i].getAttribute('class') =='culture') {
-              spans[i].classList.add('culture-bg');
-          }
-          spans[i].scrollIntoView({behavior: 'smooth', block: "center"}, true);
-      }
-      else {
-          spans[i].classList.remove('place-bg');
-          spans[i].classList.remove('culture-bg');
-      }
+        if (spans[i].getAttribute('data-label') == entityName) {
+            if (spans[i].getAttribute('class') == 'place') {
+                spans[i].classList.add('place-bg');
+            }
+            else if (spans[i].getAttribute('class') == 'culture') {
+                spans[i].classList.add('culture-bg');
+            }
+            spans[i].scrollIntoView({ behavior: 'smooth', block: "center" }, true);
+        }
+        else {
+            spans[i].classList.remove('place-bg');
+            spans[i].classList.remove('culture-bg');
+        }
     }
 }
 
-$(function () { 
+$(function () {
     $('.badge').click(function () {
         var index = $(this).parent().children().index(this);
         $("#entities").find(".active").removeClass("active");
         $(".entities-list").get(index).classList.add("active");
-  });
-});        
+    });
+});
 
 /*documentation Selector */
 $(function () {
@@ -79,10 +79,10 @@ $(function () {
         var index = $(this).parent().children().index(this);
         var secondIndex = index - 1
         var translation = 7.5 + ((index - 1) * 15);
-        $("#selector").animate({left: translation +'%'});
+        $("#selector").animate({ left: translation + '%' });
         $("#documentation").find(".active").removeClass("active");
         $(".documentationParagraph").get(secondIndex).classList.add("active");
-  });
+    });
 });
 
 

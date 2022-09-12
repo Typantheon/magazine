@@ -1,341 +1,528 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>TYPANTHEON</title>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link rel="stylesheet" href="general-style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://typantheon.github.io/magazine/jsCode.js"></script>
-    </head>
-    <body>
-        <header>
+
+<head>
+    <title>TYPANTHEON</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="general-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://typantheon.github.io/magazine/jsCode.js"></script>
+</head>
+
+<body>
+    <header>
         <h1 id="logo"><a href="index.html">TYPANTHEON</a></h1>
         <a href="#intro" class="btn btn-white btn-animated">GET STARTED</a>
-        </header>
-        <div id="img-box">
-            <img class="img-series" src="images/1.jpg">
-            <img class="img-series" src="images/2.jpg">
-            <img class="img-series" src="images/3.jpg">
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <p>Intro</p>
-                </li>
-                <li>
-                    <p><a href="issues/reader.html">Issues</a></p>
-                    <!--<ul id="issueList">
-                        <li>Dyonisus</li>
-                        <li>2</li>
-                        <li>3</li>
-                    </ul>!-->
-                </li>
-                <li>
-                    <p>Themes</p>
-                </li>
-                <li>
-                    <p>Documentation</p>
-                </li>
-                <li>
-                    <p>Contact</p>
-                </li>
-            </ul>
-        </nav>
-        <section id="intro" class="white-bg  home-section">
-            <h2 class="title-section">Intro</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mollis mauris, quis sollicitudin tellus. Aliquam ultrices erat sed ligula ornare, id faucibus turpis pretium. Praesent egestas tellus ut nulla ultricies imperdiet. Nullam non dolor sit amet dolor bibendum varius. Ut sed ex ac purus finibus vestibulum eu id mi. Pellentesque at consectetur leo. Sed vel sapien congue, dapibus ipsum vitae, egestas lorem. Quisque vel posuere leo. Suspendisse vestibulum, orci fermentum placerat aliquam, urna eros pharetra risus, quis dignissim nulla eros a metus. Mauris velit ante, rhoncus dictum aliquam sit amet, auctor ac augue. Ut eu vestibulum lorem, non laoreet orci. Pellentesque tempor volutpat nibh, ac posuere nisi mollis ut. Nam scelerisque volutpat velit at mattis.</p>
-            <p>Vestibulum sed diam scelerisque, suscipit enim et, pharetra orci. In ornare lacus at enim lacinia convallis. Curabitur iaculis elit commodo augue tempus pellentesque. Etiam ullamcorper felis ut magna maximus pellentesque eu eget erat. Donec orci nibh, lacinia at erat eget, malesuada aliquet ipsum. Nunc velit eros, cursus eget ligula at, tempus sagittis ante. Fusce suscipit sagittis tortor, sit amet consequat ex gravida vel. Nullam placerat ornare massa, ac malesuada nibh. Ut viverra luctus tincidunt. Phasellus elementum egestas metus, nec ultrices tellus sodales id. Nullam arcu mauris, bibendum non lorem id, efficitur porta nibh. Donec sollicitudin neque a turpis scelerisque sollicitudin. Cras scelerisque facilisis turpis at pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </section>
-        <section id="documentation" class="beige-bg border-top home-section">
-            <h2 class="title-section">Documentation</h2>
-            <div id="documentationSelector">
-              <ul id="stylesList" style="">
+    </header>
+    <div id="img-box">
+        <img class="img-series" src="images/1.jpg">
+        <img class="img-series" src="images/2.jpg">
+        <img class="img-series" src="images/3.jpg">
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <p>Intro</p>
+            </li>
+            <li>
+                <p><a href="issues/reader.html">Issues</a></p>
+            </li>
+            <li>
+                <p>Themes</p>
+            </li>
+            <li>
+                <p>Documentation</p>
+            </li>
+            <li>
+                <p>Contact</p>
+            </li>
+        </ul>
+    </nav>
+    <section id="intro" class="white-bg  home-section">
+        <h2 class="title-section">Intro</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mollis mauris, quis sollicitudin tellus.
+            Aliquam ultrices erat sed ligula ornare, id faucibus turpis pretium. Praesent egestas tellus ut nulla
+            ultricies imperdiet. Nullam non dolor sit amet dolor bibendum varius. Ut sed ex ac purus finibus vestibulum
+            eu id mi. Pellentesque at consectetur leo. Sed vel sapien congue, dapibus ipsum vitae, egestas lorem.
+            Quisque vel posuere leo. Suspendisse vestibulum, orci fermentum placerat aliquam, urna eros pharetra risus,
+            quis dignissim nulla eros a metus. Mauris velit ante, rhoncus dictum aliquam sit amet, auctor ac augue. Ut
+            eu vestibulum lorem, non laoreet orci. Pellentesque tempor volutpat nibh, ac posuere nisi mollis ut. Nam
+            scelerisque volutpat velit at mattis.</p>
+        <p>Vestibulum sed diam scelerisque, suscipit enim et, pharetra orci. In ornare lacus at enim lacinia convallis.
+            Curabitur iaculis elit commodo augue tempus pellentesque. Etiam ullamcorper felis ut magna maximus
+            pellentesque eu eget erat. Donec orci nibh, lacinia at erat eget, malesuada aliquet ipsum. Nunc velit eros,
+            cursus eget ligula at, tempus sagittis ante. Fusce suscipit sagittis tortor, sit amet consequat ex gravida
+            vel. Nullam placerat ornare massa, ac malesuada nibh. Ut viverra luctus tincidunt. Phasellus elementum
+            egestas metus, nec ultrices tellus sodales id. Nullam arcu mauris, bibendum non lorem id, efficitur porta
+            nibh. Donec sollicitudin neque a turpis scelerisque sollicitudin. Cras scelerisque facilisis turpis at
+            pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    </section>
+    <section id="documentation" class="beige-bg border-top home-section">
+        <h2 class="title-section">Documentation</h2>
+        <div id="documentationSelector">
+            <ul id="stylesList">
                 <div id="selector"></div>
                 <li class="stylesListItem">
-                  XV century
+                    XV century: Cervantes
                 </li>
                 <li class="stylesListItem">
-                  XIX century
+                    XIX century: Industrial Revolution
                 </li>
                 <li class="stylesListItem">
-                  1930s
+                    1930s
                 </li>
                 <li class="stylesListItem">
-                  1960s
+                    1960s
                 </li>
                 <li class="stylesListItem">
-                  Start of the XXI century
+                    Start of the XXI century
                 </li>
                 <li class="stylesListItem">
-                  A glimpse of the future
+                    A glimpse of the future
                 </li>
-              </ul>
+            </ul>
+        </div>
+
+        <div class="documentationParagraph active">
+            <br>
+            <span class="bolder">Cervantes</span>
+            <p>In this style I wanted to pay tribute to one of the greatest figures of the literary genre: <span class="bolder">Miguel de Cervantes</span>, focusing on the original version of his disruptive masterpiece, <span class="bolder">Don Quijote de la Mancha.</span>
+                As obviously at that time books only existed in the physical format, I first tried to recreate the full experience of reading the <span class="bolder">Don Quijote</span>, but it turned out to be quite hard to implement there any kind of text
+                (you can take a glance <a href="issues/book_filled_template.html">here)</a>. That's the reason I eventually opted for a more simpler but effective way. I tried to recreate the one column layout with symetrical borders, as well as a bigger first letter of each
+                new paragraph. Here are the images I took references from:
+            </p>
+            <p class="bolder">References</p>
+            <div class="image-container" id="img-container-1">
+                <img src="https://espaciolibros.com//wp-content/uploads/2019/11/espaciolibros-don-quijote-resumen-comentario-de-texto-primera-edicion-600x525.jpg">
+                <img src="https://lavozdelbecario.es/wp-content/uploads/2020/08/donquijote.jpg">
+                <img src="https://cloud10.todocoleccion.online/libros-antiguos-clasicos/tc/2015/04/20/22/48969119.jpg">
             </div>
-            
-            <div class="documentationParagraph active">
-                <br>
-                <span class="bolder">XV century</span> 
+            <br>
+            <span class="bolder">Appearence</span>
+            <p>To give it that old appearence I applied shadowing on the borders, as well as using a noise image to give it that granular effect so it seems more antique.
+                Regarding the election of the font, I selected the Gutenberg font, which alludes to those first examples of the book which were printed.
+            </p>
+            <div class="image-container" id="img-container-1">
+                <img src="https://cdn.myfonts.com/cdn-cgi/image/width=720,height=360,fit=contain,format=auto/images/pim/10000/204199_67b9c3b648cad439c7e4ac18e78b3801.png">
+                <img src="http://4.bp.blogspot.com/-UGlCUVtDtKc/TbP7S2EFk5I/AAAAAAAABLM/5j5TelDW5eQ/s1600/Licencia2.JPG">
+                <img src="https://www.elindependientedegranada.es/sites/default/files/styles/large/public/blogs/ruido-blanco-eh.jpg?itok=A6sKvvvS">
+
             </div>
-            
-            <div class="documentationParagraph">
-                <br>
-                <span class="bolder">XIX century</span>
-            </div>
-            
-            <div class="documentationParagraph">
-                <br>
-                <span class="bolder greater">1930s</span>
-                <p>The 1930s typographic style is inspired by the French painter and typeface designer <span class="bolder">Adolphe Jean-Marie Mouron</span>, better known by his pseudonym <span class="bolder">Cassandre</span>. Though his lifetime spans more than half of the XX century, many of his most remarkable works and creations date back to the <span class="bolder">1920s</span> and the <span class="bolder">1930s</span>. Here are some references from this period:</p>
-                <p class="bolder">Typefaces:</p>
-                <div class="image-container" id="img-container-1">
-                    <img src="https://i.pinimg.com/564x/3d/a7/cf/3da7cfd3edc91940f6e03fc622c39a50.jpg">
-                    <img src="https://i.pinimg.com/564x/c9/60/1f/c9601f08590f21af5dc815f761a56ddd.jpg">
-                    <img src="https://i.pinimg.com/564x/fb/a4/cb/fba4cbac9b726fbcf11b95f0fc39921e.jpg">
-                </div>
-                <br>
-                <p class="bolder">Posters:</p>
-                <div class="image-container" id="img-container-2">
-                    <img src="https://static.wixstatic.com/media/f8ac0d_e9f56d6534894d2280982efe78ed8a36~mv2_d_4560_5760_s_4_2.jpg/v1/fill/w_529,h_669,al_c,q_80,usm_1.20_1.00_0.01,enc_auto/f8ac0d_e9f56d6534894d2280982efe78ed8a36~mv2_d_4560_5760_s_4_2.jpg">
-                    <img src="https://static.wixstatic.com/media/f8ac0d_eac3fd671cab44e2bbb5be019f55c908~mv2.jpg/v1/fill/w_503,h_669,al_c,q_80,usm_1.20_1.00_0.01,enc_auto/f8ac0d_eac3fd671cab44e2bbb5be019f55c908~mv2.jpg">
-                    <img src="https://static.wixstatic.com/media/f8ac0d_db158273a463449d99478f9363a0fada~mv2.jpg/v1/fill/w_421,h_669,al_c,q_80,usm_1.20_1.00_0.01,enc_auto/f8ac0d_db158273a463449d99478f9363a0fada~mv2.jpg">
-                </div>
-                <br>
-                <p class="bolder">Cover page:</p>
-                <p>Both the <span class="bolder">size</span> and the <span class="bolder">font family</span> comply with the instructions provided by Cassandre and his colleagues. As suggested by a Bifur promotional brochure, the <span class="bolder">Bifur font</span> was specifically designed for <span class="bolder">headings</span>, while it should not be used for text. The same document also introduces four different sizes: we have used the largest one (60pt) for the main heading of the whole article, while the third size (36pt) was chosen to indicate the author. The remaining elements on the cover require a simpler and more balanced style, thus, we have adopted the uppercase <span class="bolder">Peignot font</span>, whose sizes have been suggested by the following example page:</p>
-                <div class="image-container" id="img-container-3">
-                    <img src="https://carsonparkdesign.com/wp-content/uploads/2020/12/Bifur-Continental-Types-1930-scaled.jpg">
-                </div>
-                <br>
-                <p>This same document also inspired the layout of the page and the background of the cover. For those articles whose cover has an opening image, the adopted filters are “greyscale (100%)” and “contrast (300%)”. This style imitates some gouaches produced by Cassandre in the 1930s and characterizes all the images of the article. Moreover, the cover image is shaped like a square</p>
-                <div class="image-container" id="img-container-4">
-                    <img src="https://d3ec1vt3scx7rr.cloudfront.net/files/styles/x_large/s3/files/images/1984/SAAM-1984.124.56_1.jpg?itok=TV-SNSvQ">
-                </div>
-                <br>
-                <p class="bolder">Article body:</p>
-                <p>The body of the articles contains many different elements. The page presents a special type of <span class="bolder">borders</span>, created using the letter A of the Bifur font. This type of textual ornament was suggested by both the above-mentioned brochure and the following document: <a href="https://www.flickr.com/photos/46165392@N05/44555950915/in/dateposted/" target="_blank">click here to open the link in a new tab</a>.</p>
-                <p>The <span class="bolder">headings</span> have different sizes depending on their level. Following the idea expressed concerning the main title (h1), h2 will be 48pt large, h3 is 36pt, and h4 is 24pt. Instead, the paragraph font size will be 14pt, except for the publication note/abstract (18pt) and image-captions (12pt).</p>
-                <div class="image-container" id="img-container-5">
-                    <img src="https://64.media.tumblr.com/50401ae46d2950b8f40e3d2003a1c8b7/tumblr_mm35tkARQk1qcaxv1o1_1280.jpg">
-                </div>
-                <br>
-                <p class="bolder">Other elements:</p>
-                <ul>
-                   <li><code class="bolder">&lt;hr&gt;</code>: the horizontal rule is inspired by the same sources concerning borders and decorative elements. The symbol used for this element is a repetition of the number 4 (Bifur font).</li>
-                   <li><code class="bolder">&lt;table&gt;</code>: the style of the table follows the model offered by</li>
-                   <div class="image-container" id="img-container-6">
-                       <img src="https://cdn.shopify.com/s/files/1/0606/8096/2306/products/AM085_1024x1024.png?v=1637853008">
-                   </div>
-                </ul>
-                <p class="bolder">Colours:</p>
-                <p>We have already explained (above <em>Cover page</em>) the reason behind the choice of image filters and the backgrounds. Now it’s time to deal with text colours: <code class="bolder" style="color:#cf4b3a">#cf4b3a</code> and <code class="bolder" style="color:#656770">#656770</code>. 
-                <p>These colours have been retrieved from Img. 2 (above) and perfectly fit the need to combine two of the <span class="bolder">most frequent colours</span> used by Cassandre. Moreover, the bicoloured style is suggested by the Bifur font brochure, while the red colour was often adopted by the typist for styling the first letter of a Peignot font paragraph:</p>
-                <div class="image-container" id="img-container-7">
-                   <img src="images/peignot-facsimile.png">
-                </div>
-                <br>
-                <p>The same colours alternation characterizes the paragraphs’ title and the structure of boxes (<code class="bolder">&lt;div&gt;</code> elements) and tables.</p>
+            <div>
+
                 <p class="bolder">Bibliography:</p>
                 <ul>
-                    <li>TYPOGRAPHY & LOGOS BY A.M.CASSANDRE: <a href="https://www.cassandre-france.com/typography">https://www.cassandre-france.com/typography</a></li>
-                    <li>POSTER GALLERY BY A.M.CASSANDRE: <a href="https://www.cassandre-france.com/poster-gallery-by-am-cassandre">https://www.cassandre-france.com/poster-gallery-by-am-cassandre</a></li>
-                    <li>Bifur in use: <a href="https://fontsinuse.com/typefaces/3147/bifur">https://fontsinuse.com/typefaces/3147/bifur</a></li>
-                    <li>Acier in use: <a href="https://fontsinuse.com/typefaces/7258/acier">https://fontsinuse.com/typefaces/7258/acier</a></li>
-                    <li>Peignot in use: <a href="https://fontsinuse.com/typefaces/4336/peignot">https://fontsinuse.com/typefaces/4336/peignot</a></li>
-                    <li>Smithsonian American Art Museum - A. Mouron Cassandre: <a href="https://americanart.si.edu/artist/mouron-cassandre-768">https://americanart.si.edu/artist/mouron-cassandre-768</a></li>
-                </ul>       
-            </div>
-            
-            <div class="documentationParagraph">
-                <br>
-                <span class="bolder greater">1960s</span> 
-                <p>The 1960s style is inspired by the <span class="bolder">hippie movement</span>, one of the best examples of the XX century counterculture. The flower children were famous not only because of their ideology, but also thanks to their <span class="bolder">eccentric and colourful style</span>, whose symbols still characterizes many retro works of art.</p> 
-                <p class="bolder">Examples:</p>
-                <div class="image-container" id="img-container-8">
-                    <img src="https://i.pinimg.com/564x/1f/72/36/1f723667f7e5fc64db69d72f8f657049.jpg">
-                    <img src="https://i.pinimg.com/564x/cc/e8/c9/cce8c9ef50b8d9390ef0aeb49975fcd7.jpg">
-                    <img src="https://i.pinimg.com/564x/cd/b9/5a/cdb95acd23250f66d7bc6989a3df8586.jpg">
-                    <img src="https://i.pinimg.com/564x/2a/5f/76/2a5f764e2b77f71e6d1b4fce83f207ee.jpg">
-                </div>
-                <br>
-                <p class="bolder">Headings and paragraphs:</p>
-                <p>The headings of the articles have been created following the <span class="bolder">bold and colourful style</span> of the 60s posters and picture. In particular, the main title (h1) of the article retrieves the multi-layered structure of the image on the left, while the headings (h2, h3, h4) of the article body present a gradually simpler text-shadow depending on their level (image on the right).</p>
-                <div class="image-container" id="img-container-9">
-                    <img src="https://i.pinimg.com/564x/4f/7c/bb/4f7cbb97ba2b55037216cec1a667b34c.jpg">
-                    <img src="https://i.pinimg.com/564x/90/69/74/9069747eba4b6ecf9a7d7e0a1dfc870b.jpg">
-                </div>
-                <br>
-                <p>Two fonts synthetize the essence of the hippie style:</p>
-                <ul>
-                    <li><span class="bolder">Scorpio</span> (left): one of the best examples of this groovy typography, it was designed in 1968. This font emphasizes the <span class="bolder">bold</span> body of the characters as well as their <span class="bolder">rounded shape</span>.</li>
-                    <li><span class="bolder">Arnold Böcklin</span> (right): this font was invented in 1904, however, it saw a major revival during the 1960s.</li>
-                </ul>
-                <div class="image-container" id="img-container-10">
-                    <img src="https://assets.fontsinuse.com/static/use-media-items/59/58926/full-2100x1409/59f7146c/Psychedelitypes 2.jpeg">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/ArnoldBocklinSpec.svg/330px-ArnoldBocklinSpec.svg.png">
-                </div>
-                <br>
-                <p class="bolder">Images:</p>
-                <p>The hippie style is characterized by <span class="bolder">colourful borders and curved lines</span>. Thus, each image is included within a rounded border, while the applied filters <span class="bolder">(sepia 40%)</span> attempt to recreate the colours of the 1960s photography.</p>
-                <div class="image-container" id="img-container-11">
-                    <img src="https://i.pinimg.com/564x/4a/12/36/4a1236dcfe011f6422adb4cafdd1b793.jpg">
-                </div>
-                <br>
-                <p class="bolder">Colours:</p>
-                <p>The colours - <span class="bolder" style="color:#27315D">#27315D</span>, <span class="bolder" style="color:#51AEA7">#51AEA7</span>, <span class="bolder" style="color:#F6AB5A">#F6AB5A</span>, <span class="bolder" style="color:#D95852">#D95852</span> - of the articles (heading shadows, borders, background image) are some of the most used ones and they have been extracted from the next image.</p>
-                <div class="image-container" id="img-container-12">
-                    <img src="https://pro-cdn.pixelmator.com/tutorials/guides/create-a-retro-text-effect/img_facebook.jpg">
-                </div>
-                <br>
-            </div>
-            
-            <div class="documentationParagraph">
-                <br>
-                <span class="bolder">Start of the XXI century</span> 
-                <p> In this theme, I decided to explore the manga style and its essential features. 
-                    <br> Specifically, I focused on the inner structure of a manga comic, composed by a set of panels, thin lines and black ink. 
-                    <br> Mangas originated from scrolls dating back to the 12th century, but they started to be associated with the concept of western comics just in the 18th century; at the start of the XXI century, mangas had acquired a 
-                    characteristic font and an overall <span class="bolder"> essential </span> panel composition. </p>
-                <p class="bolder">Examples:</p>
-                <div class="image-container" id="img-container-13">
-                    <img src="https://media-assets.wired.it/photos/615db851cefb88359923d3e3/master/w_1600%2Cc_limit/1_devilman.jpg">
-                    <img src="https://ih1.redbubble.net/image.2573340137.0909/pp,504x498-pad,600x600,f8f8f8.jpg">
-                    <img src="https://i.pinimg.com/736x/c8/f8/d0/c8f8d03f992f8d51967c8e4cc2433f9a--neon-genesis-evangelion-posts.jpg">
-                    <img src="https://read.mangadad.com/Mangadad/berserk/chapter-197/1.jpg">
-                </div>
-                 <br>
-                <p class="bolder">Headings and paragraphs:</p>
-                <p> When considering the headings, I decided to take direct inspiration from the fonts used in the Neon Genesis Evangelion franchise. 
-                    <br> My decision was guided primarily by the impact that this manga had during its production and release time, and also by 
-                    its history: Neon Genesis Evangelion is one of the few cases in which the animation series (anime, in Japanese) came before 
-                    its comic-book counterpart. This transition, however, didn't change the typographical or stylistic nature of the franchise, but, 
-                    actually, contributed to making it iconic and unforgettable, a fundamental part of the narrative itself. <p>
-                <div class="image-container" id="img-container-14">
-                    <img src="https://i.redd.it/uik9w0c4kem71.jpg">
-                    <img src="https://i.pinimg.com/originals/06/72/b5/0672b551852377fa5bf932da787432b7.jpg">
-                    <img src="https://external-preview.redd.it/lBrEai3H0ltBDLEoF-pF6yB9uEbY5wA6YL7DesctEvQ.jpg"></div>
-                    <br>
-                 <p> It was, however, more difficult to integrate a classic manga panel structure within a dense wall of text, our articles: 
-                     I tried, at first, to divide every paragraph in sections contained in boxes and to recreate the correct way to read 
-                     a manga (from right to left and from top to bottom, as explained by this <a href="https://study.soas.ac.uk/how-to-read-manga/#:~:text=Traditionally%2C%20manga%20stories%20are%20read,the%20bottom%20left%2Dhand%20corner."> article<a>.)
-                     However, at the end I decided to go for a more <span class="bolder">versatile asset</span>, maybe simpler, but absolutely relevant to this style and 
-                     its main characteristics. 
-                     <br> Paragraphs in this theme use a <a href="https://www.dafont.com/anime-ace-bb.font">specific font</a> created for manga and anime inspired content.<p> 
-                     <p> All the fonts present in this theme, have been chosen with the critical and theoretical support given by 
-                     this <a href="https://fontsinuse.com/uses/28760/neon-genesis-evangelion"> article </a>: 
-                         <ul> 
-                             <li> <span class="bolder">Anime-ACE</span> is based on (left): CC Wild Words Roman, font created for Jim Lee’s Wildstorm books, 
-                                 and that was featured not only in western and asian comic series, but also in TIME Magazine and the LEGO catalog. 
-                                 <br> Wildstorm production was a an American comic book imprint company founded in 1991 by Jim Lee, and then became part 
-                                 of DC Comics in 1999. It was recently revived in 2017 after a forced shut down in 2010 </li> 
-                             <li> <span class="bolder"> Roboto </span> has been used for all the articles' headings, since it's the most similar option to
-                                 some of the fonts used for titles and headings in the Neon Genesis Evangelion franchise, such as (right): 
-                                 Helvetica (designed by Max Miedinger in 1956) and Neue Helvetica (a revised version of Helvetica, created in 1982 at Linotype). 
-                                 <br> The shadows applied to the titles and headings are a reference to the same decoration used in the Neon Genesis Evangelion's episodes screens
-                                 to create more <span class="bolder">depth and contrast</span> between the header section and the article structure. 
-                             </li> 
-                           </ul> 
-                     </p> 
-                     <br> 
-                     <p class="bolder">Images:</p>
-                     <p> The images have been filtered in <span class="bolder">grey scale</span>, to recreate the aesthetics of a manga illustration. 
-                         <div class="image-container" id="img-container 15"> 
-                             <img src="https://phantom-marca.unidadeditorial.es/8246657ecd0e1e9e3ef78f7e19abb3a6/resize/1200/f/webp/assets/multimedia/imagenes/2022/07/07/16572060638517.jpg">
-                             
-                     </div>
-                     <br> 
-                     <p class="bolder"> Bibliography:</p> 
-                        <ul> 
-                            <li>Peiran, T. (2019, October 17th). Neon Genesis Evangelion - Graphic designer Peiran Tan plumbs the typographic psyche of the celebrated anime franchise, FontsInUse: <a href="https://fontsinuse.com/uses/28760/neon-genesis-evangelion">https://fontsinuse.com/uses/28760/neon-genesis-evangelion</a></li>
-                            <li>Wilson, K. (s.d.). What is a manga panel?, MangaScout: <a href="https://mangascout.com/manga-panel/">https://mangascout.com/manga-panel/</a></li>
-                     </ul> 
-                     </p> 
-            </div>   
-            <div class="documentationParagraph">
-                <br>
-                <span class="bolder">A glimpse of the future</span> 
-                <p> The main inspiration behind this theme is the solarpunk aesthetic and its interpretations.
-                    <br> We can define solarpunk as a science fiction literary subgenre and art movement, which investigates and explores 
-                    an optimistic vision of the future: humans come together to win climate change's challenges and obstacles, and therefore manage to 
-                    create a sustanaible existence for the entire planet. 
-                    As a complete opposite of the cyberpunk genre, solarpunk's aesthetic is <span class="bolder">bright</span> and deeply influenced by Art Deco, while from a philosophical point of view it takes many values from eco-modernism, 
-                    anti-consumerism and positive psychology. 
-                </p>
-                <p class="bolder"> Examples:</p> 
-                    <div class="image-container" id="img-container-16">
-                        <img src="https://www.cienciaficcion.es/wp-content/uploads/2020/08/que-es-el-solarpunk.jpg">
-                        <img src="https://www.lasepolturadellaletteratura.it/wp-content/uploads/2022/09/Solarpunk-copertina3.jpg">
-                        <img src="https://pbs.twimg.com/media/FcDiNCcX0AgiOcv?format=jpg&name=large">
-                </div> 
-                <br>
-                    <p> 
-                    My interpretation of solarpunk is rooted in two different media sources: Nausicaa of the Valley of the Wind, the videogame series Fallout
-                        (specifically Fallout 4). </p>
-                <br>
-                 <div class="image-container" id="img-container-17">
-                     <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0853366713907.5b1fbc9ae6234.jpg"> 
-                     <img src="https://ae01.alicdn.com/kf/H1b525e0702da40b4a776587f61c6b0b28/Studio-Ghibli-Nausicaa-valley-of-the-wind-Anime-Art-print-Silk-poster-Home-Wall-Decor.jpg">
-                     <img src="https://static.wikia.nocookie.net/fallout/images/3/3d/Diamond_City_overview.jpg/revision/latest?cb=20160221001521">
-                     <img src="https://guides.gamepressure.com/fallout4/gfx/word/365154207.jpg">
-                </div>
-              </p> 
-                <br> 
-                        <p class="bolder">Headings and paragraphs:</p>
-                <p> From Nausicaa of the Valley of the Wind I took the "retro" and art deco inspiration, while Fallout contributed to shape the paragraphs' 
-                    style and structure: my idea was to create an interface similar to the one of an old cathode tube screen (like <a href="https://www.eljugondemovil.com/wp-content/uploads/2015/11/El-Jugon-De-Movil-Pip-Boy-Portada-1280x720.jpg">those</a> that you could 
-                    find in the world of Fallout), with a dark background and a flickering display, and to complete it with fonts and colors coming 
-                    directly from the solarpunk aesthetic (earth tones, various shades of green). </p> 
-                <p> Let's now focus on this theme's fonts:</p> 
-                    <ul> 
-                        <li><span class="bolder"> Brassia </span> is a (left): font created by Ariel Martín Pérez, member of the Velvetyne Type Foundry,
-                            during a workshop hold on February the 14th 2019 in occasion of the Fig. Festival in Liège, Belgium. 
-                            <br> Completely designed to represent a contemporary interpretation of the solarpunk genre, Brassia's name derives from 
-                            the city of Brussels, Brasseurs and by a botanical genus of orchids; it is free to download, modify and use. 
-                        </li> 
-                        <li><span class="bolder"> CourierPrime </span> was instead chosen for being one of the most economical and eco-sustainable fonts,
-                            according to multiple sources, and therefore it is perfect for a solarpunk interface.
-                            This theme implements it in all of its paragraphs. </li> 
-                </ul> 
-                <div class="image-container" id="img-container-18">
-                    <img src="https://velvetyne.fr/site/assets/files/1381/brassia01b.jpg">
-                    <img src="https://velvetyne.fr/site/assets/files/1381/brassia04.jpg">
-                    <img src="https://www.fontshmonts.com/wp-content/uploads/2019/11/courier-prime-02-1500x1000.jpg">
-                </div> 
-                     <br> 
-                     <p class="bolder"> Bibliography:</p>
-                <ul> 
-                    <li> coffeemug. (2014, August 27). CRTs vs. LCDs: Nostalgia and Environmental Impacts, VTSun - Virginia Tech Sustainable Nanotechnology: <a href:"https://blogs.lt.vt.edu/sustainablenano/2014/08/27/crts-vs-lcds-nostalgia-and-environmental-impacts/">https://blogs.lt.vt.edu/sustainablenano/2014/08/27/crts-vs-lcds-nostalgia-and-environmental-impacts/</a></li>
-                    <li>FormaFantasma. (s.d.). FormaFantasma - Studio, FormaFantasma:<a href="https://formafantasma.com/studio">https://formafantasma.com/studio</a></li>
-                    <li>Solarpunk Community. A Solarpunk Manifesto. Retrieved from Regenerative Design: <a href="http://www.re-des.org/a-solarpunk-manifesto/">http://www.re-des.org/a-solarpunk-manifesto/</a></li>
-                    <li>Velvetyne - Libre e Open Source Type Foundry. (2019, February 25). TYPEFACES FROM A SOLARPUNK FUTURE AT FIG. FESTIVAL, Velvetyne: <a href="https://velvetyne.fr/news/typefaces-from-a-solarpunk-future-at-fig-festival/">https://velvetyne.fr/news/typefaces-from-a-solarpunk-future-at-fig-festival/</a></li>
-                </ul> 
-                </p>                 
-            </div>
-           </div>
-        </section>
-        <section id="contact" class="white-bg border-top home-section">
-            <h2 class="title-section">Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mollis mauris, quis sollicitudin tellus. Aliquam ultrices erat sed ligula ornare, id faucibus turpis pretium. Praesent egestas tellus ut nulla ultricies imperdiet. Nullam non dolor sit amet dolor bibendum varius. Ut sed ex ac purus finibus vestibulum eu id mi. Pellentesque at consectetur leo. Sed vel sapien congue, dapibus ipsum vitae, egestas lorem. Quisque vel posuere leo. Suspendisse vestibulum, orci fermentum placerat aliquam, urna eros pharetra risus, quis dignissim nulla eros a metus. Mauris velit ante, rhoncus dictum aliquam sit amet, auctor ac augue. Ut eu vestibulum lorem, non laoreet orci. Pellentesque tempor volutpat nibh, ac posuere nisi mollis ut. Nam scelerisque volutpat velit at mattis.</p>
-            <p>Vestibulum sed diam scelerisque, suscipit enim et, pharetra orci. In ornare lacus at enim lacinia convallis. Curabitur iaculis elit commodo augue tempus pellentesque. Etiam ullamcorper felis ut magna maximus pellentesque eu eget erat. Donec orci nibh, lacinia at erat eget, malesuada aliquet ipsum. Nunc velit eros, cursus eget ligula at, tempus sagittis ante. Fusce suscipit sagittis tortor, sit amet consequat ex gravida vel. Nullam placerat ornare massa, ac malesuada nibh. Ut viverra luctus tincidunt. Phasellus elementum egestas metus, nec ultrices tellus sodales id. Nullam arcu mauris, bibendum non lorem id, efficitur porta nibh. Donec sollicitudin neque a turpis scelerisque sollicitudin. Cras scelerisque facilisis turpis at pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </section>
-        <button onclick="topFunction()" id="backToTop" title="Go to top">↑</button>
+                    <li><a href="https://guity-novin.blogspot.com/2012/04/modern-newspaper-magazine-layouts.html">https://guity-novin.blogspot.com/2012/04/modern-newspaper-magazine-layouts.html</a></li>
+                    <li><a href="https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby">https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby</a></li>
+                </ul>  
 
-        <script>
-            var mybutton = document.getElementById("backToTop");
-            
-            window.onscroll = function() {scrollFunction()};
-            
-            function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            </div>
+        </div>
+
+        <div class="documentationParagraph">
+            <br>
+            <span class="bolder">Industrial Revolution</span>
+        </div>
+
+        <div class="documentationParagraph">
+            <br>
+            <span class="bolder greater">1930s</span>
+            <p>The 1930s typographic style is inspired by the French painter and typeface designer <span
+                    class="bolder">Adolphe Jean-Marie Mouron</span>, better known by his pseudonym <span
+                    class="bolder">Cassandre</span>. Though his lifetime spans more than half of the XX century, many of
+                his most remarkable works and creations date back to the <span class="bolder">1920s</span> and the <span
+                    class="bolder">1930s</span>. Here are some references from this period:</p>
+            <p class="bolder">Typefaces:</p>
+            <div class="image-container" id="img-container-1">
+                <img src="https://i.pinimg.com/564x/3d/a7/cf/3da7cfd3edc91940f6e03fc622c39a50.jpg">
+                <img src="https://i.pinimg.com/564x/c9/60/1f/c9601f08590f21af5dc815f761a56ddd.jpg">
+                <img src="https://i.pinimg.com/564x/fb/a4/cb/fba4cbac9b726fbcf11b95f0fc39921e.jpg">
+            </div>
+            <br>
+            <p class="bolder">Posters:</p>
+            <div class="image-container" id="img-container-2">
+                <img
+                    src="https://static.wixstatic.com/media/f8ac0d_e9f56d6534894d2280982efe78ed8a36~mv2_d_4560_5760_s_4_2.jpg/v1/fill/w_529,h_669,al_c,q_80,usm_1.20_1.00_0.01,enc_auto/f8ac0d_e9f56d6534894d2280982efe78ed8a36~mv2_d_4560_5760_s_4_2.jpg">
+                <img
+                    src="https://static.wixstatic.com/media/f8ac0d_eac3fd671cab44e2bbb5be019f55c908~mv2.jpg/v1/fill/w_503,h_669,al_c,q_80,usm_1.20_1.00_0.01,enc_auto/f8ac0d_eac3fd671cab44e2bbb5be019f55c908~mv2.jpg">
+                <img
+                    src="https://static.wixstatic.com/media/f8ac0d_db158273a463449d99478f9363a0fada~mv2.jpg/v1/fill/w_421,h_669,al_c,q_80,usm_1.20_1.00_0.01,enc_auto/f8ac0d_db158273a463449d99478f9363a0fada~mv2.jpg">
+            </div>
+            <br>
+            <p class="bolder">Cover page:</p>
+            <p>Both the <span class="bolder">size</span> and the <span class="bolder">font family</span> comply with the
+                instructions provided by Cassandre and his colleagues. As suggested by a Bifur promotional brochure, the
+                <span class="bolder">Bifur font</span> was specifically designed for <span
+                    class="bolder">headings</span>, while it should not be used for text. The same document also
+                introduces four different sizes: we have used the largest one (60pt) for the main heading of the whole
+                article, while the third size (36pt) was chosen to indicate the author. The remaining elements on the
+                cover require a simpler and more balanced style, thus, we have adopted the uppercase <span
+                    class="bolder">Peignot font</span>, whose sizes have been suggested by the following example page:
+            </p>
+            <div class="image-container" id="img-container-3">
+                <img
+                    src="https://carsonparkdesign.com/wp-content/uploads/2020/12/Bifur-Continental-Types-1930-scaled.jpg">
+            </div>
+            <br>
+            <p>This same document also inspired the layout of the page and the background of the cover. For those
+                articles whose cover has an opening image, the adopted filters are “greyscale (100%)” and “contrast
+                (300%)”. This style imitates some gouaches produced by Cassandre in the 1930s and characterizes all the
+                images of the article. Moreover, the cover image is shaped like a square</p>
+            <div class="image-container" id="img-container-4">
+                <img
+                    src="https://d3ec1vt3scx7rr.cloudfront.net/files/styles/x_large/s3/files/images/1984/SAAM-1984.124.56_1.jpg?itok=TV-SNSvQ">
+            </div>
+            <br>
+            <p class="bolder">Article body:</p>
+            <p>The body of the articles contains many different elements. The page presents a special type of <span
+                    class="bolder">borders</span>, created using the letter A of the Bifur font. This type of textual
+                ornament was suggested by both the above-mentioned brochure and the following document: <a
+                    href="https://www.flickr.com/photos/46165392@N05/44555950915/in/dateposted/" target="_blank">click
+                    here to open the link in a new tab</a>.</p>
+            <p>The <span class="bolder">headings</span> have different sizes depending on their level. Following the
+                idea expressed concerning the main title (h1), h2 will be 48pt large, h3 is 36pt, and h4 is 24pt.
+                Instead, the paragraph font size will be 14pt, except for the publication note/abstract (18pt) and
+                image-captions (12pt).</p>
+            <div class="image-container" id="img-container-5">
+                <img
+                    src="https://64.media.tumblr.com/50401ae46d2950b8f40e3d2003a1c8b7/tumblr_mm35tkARQk1qcaxv1o1_1280.jpg">
+            </div>
+            <br>
+            <p class="bolder">Other elements:</p>
+            <ul>
+                <li><code class="bolder">&lt;hr&gt;</code>: the horizontal rule is inspired by the same sources
+                    concerning borders and decorative elements. The symbol used for this element is a repetition of the
+                    number 4 (Bifur font).</li>
+                <li><code class="bolder">&lt;table&gt;</code>: the style of the table follows the model offered by</li>
+                <div class="image-container" id="img-container-6">
+                    <img
+                        src="https://cdn.shopify.com/s/files/1/0606/8096/2306/products/AM085_1024x1024.png?v=1637853008">
+                </div>
+            </ul>
+            <p class="bolder">Colours:</p>
+            <p>We have already explained (above <em>Cover page</em>) the reason behind the choice of image filters and
+                the backgrounds. Now it’s time to deal with text colours: <code class="bolder"
+                    style="color:#cf4b3a">#cf4b3a</code> and <code class="bolder" style="color:#656770">#656770</code>.
+            <p>These colours have been retrieved from Img. 2 (above) and perfectly fit the need to combine two of the
+                <span class="bolder">most frequent colours</span> used by Cassandre. Moreover, the bicoloured style is
+                suggested by the Bifur font brochure, while the red colour was often adopted by the typist for styling
+                the first letter of a Peignot font paragraph:
+            </p>
+            <div class="image-container" id="img-container-7">
+                <img src="images/peignot-facsimile.png">
+            </div>
+            <br>
+            <p>The same colours alternation characterizes the paragraphs’ title and the structure of boxes (<code
+                    class="bolder">&lt;div&gt;</code> elements) and tables.</p>
+            <p class="bolder">Bibliography:</p>
+            <ul>
+                <li>TYPOGRAPHY & LOGOS BY A.M.CASSANDRE: <a
+                        href="https://www.cassandre-france.com/typography">https://www.cassandre-france.com/typography</a>
+                </li>
+                <li>POSTER GALLERY BY A.M.CASSANDRE: <a
+                        href="https://www.cassandre-france.com/poster-gallery-by-am-cassandre">https://www.cassandre-france.com/poster-gallery-by-am-cassandre</a>
+                </li>
+                <li>Bifur in use: <a
+                        href="https://fontsinuse.com/typefaces/3147/bifur">https://fontsinuse.com/typefaces/3147/bifur</a>
+                </li>
+                <li>Acier in use: <a
+                        href="https://fontsinuse.com/typefaces/7258/acier">https://fontsinuse.com/typefaces/7258/acier</a>
+                </li>
+                <li>Peignot in use: <a
+                        href="https://fontsinuse.com/typefaces/4336/peignot">https://fontsinuse.com/typefaces/4336/peignot</a>
+                </li>
+                <li>Smithsonian American Art Museum - A. Mouron Cassandre: <a
+                        href="https://americanart.si.edu/artist/mouron-cassandre-768">https://americanart.si.edu/artist/mouron-cassandre-768</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="documentationParagraph">
+            <br>
+            <span class="bolder greater">1960s</span>
+            <p>The 1960s style is inspired by the <span class="bolder">hippie movement</span>, one of the best examples
+                of the XX century counterculture. The flower children were famous not only because of their ideology,
+                but also thanks to their <span class="bolder">eccentric and colourful style</span>, whose symbols still
+                characterizes many retro works of art.</p>
+            <p class="bolder">Examples:</p>
+            <div class="image-container" id="img-container-8">
+                <img src="https://i.pinimg.com/564x/1f/72/36/1f723667f7e5fc64db69d72f8f657049.jpg">
+                <img src="https://i.pinimg.com/564x/cc/e8/c9/cce8c9ef50b8d9390ef0aeb49975fcd7.jpg">
+                <img src="https://i.pinimg.com/564x/cd/b9/5a/cdb95acd23250f66d7bc6989a3df8586.jpg">
+                <img src="https://i.pinimg.com/564x/2a/5f/76/2a5f764e2b77f71e6d1b4fce83f207ee.jpg">
+            </div>
+            <br>
+            <p class="bolder">Headings and paragraphs:</p>
+            <p>The headings of the articles have been created following the <span class="bolder">bold and colourful
+                    style</span> of the 60s posters and picture. In particular, the main title (h1) of the article
+                retrieves the multi-layered structure of the image on the left, while the headings (h2, h3, h4) of the
+                article body present a gradually simpler text-shadow depending on their level (image on the right).</p>
+            <div class="image-container" id="img-container-9">
+                <img src="https://i.pinimg.com/564x/4f/7c/bb/4f7cbb97ba2b55037216cec1a667b34c.jpg">
+                <img src="https://i.pinimg.com/564x/90/69/74/9069747eba4b6ecf9a7d7e0a1dfc870b.jpg">
+            </div>
+            <br>
+            <p>Two fonts synthetize the essence of the hippie style:</p>
+            <ul>
+                <li><span class="bolder">Scorpio</span> (left): one of the best examples of this groovy typography, it
+                    was designed in 1968. This font emphasizes the <span class="bolder">bold</span> body of the
+                    characters as well as their <span class="bolder">rounded shape</span>.</li>
+                <li><span class="bolder">Arnold Böcklin</span> (right): this font was invented in 1904, however, it saw
+                    a major revival during the 1960s.</li>
+            </ul>
+            <div class="image-container" id="img-container-10">
+                <img
+                    src="https://assets.fontsinuse.com/static/use-media-items/59/58926/full-2100x1409/59f7146c/Psychedelitypes 2.jpeg">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/ArnoldBocklinSpec.svg/330px-ArnoldBocklinSpec.svg.png">
+            </div>
+            <br>
+            <p class="bolder">Images:</p>
+            <p>The hippie style is characterized by <span class="bolder">colourful borders and curved lines</span>.
+                Thus, each image is included within a rounded border, while the applied filters <span
+                    class="bolder">(sepia 40%)</span> attempt to recreate the colours of the 1960s photography.</p>
+            <div class="image-container" id="img-container-11">
+                <img src="https://i.pinimg.com/564x/4a/12/36/4a1236dcfe011f6422adb4cafdd1b793.jpg">
+            </div>
+            <br>
+            <p class="bolder">Colours:</p>
+            <p>The colours - <span class="bolder" style="color:#27315D">#27315D</span>, <span class="bolder"
+                    style="color:#51AEA7">#51AEA7</span>, <span class="bolder" style="color:#F6AB5A">#F6AB5A</span>,
+                <span class="bolder" style="color:#D95852">#D95852</span> - of the articles (heading shadows, borders,
+                background image) are some of the most used ones and they have been extracted from the next image.
+            </p>
+            <div class="image-container" id="img-container-12">
+                <img src="https://pro-cdn.pixelmator.com/tutorials/guides/create-a-retro-text-effect/img_facebook.jpg">
+            </div>
+            <br>
+        </div>
+
+        <div class="documentationParagraph">
+            <br>
+            <span class="bolder">Start of the XXI century</span>
+            <p> In this theme, I decided to explore the manga style and its essential features.
+                <br> Specifically, I focused on the inner structure of a manga comic, composed by a set of panels, thin
+                lines and black ink.
+                <br> Mangas originated from scrolls dating back to the 12th century, but they started to be associated
+                with the concept of western comics just in the 18th century; at the start of the XXI century, mangas had
+                acquired a
+                characteristic font and an overall <span class="bolder"> essential </span> panel composition.
+            </p>
+            <p class="bolder">Examples:</p>
+            <div class="image-container" id="img-container-13">
+                <img
+                    src="https://media-assets.wired.it/photos/615db851cefb88359923d3e3/master/w_1600%2Cc_limit/1_devilman.jpg">
+                <img src="https://ih1.redbubble.net/image.2573340137.0909/pp,504x498-pad,600x600,f8f8f8.jpg">
+                <img
+                    src="https://i.pinimg.com/736x/c8/f8/d0/c8f8d03f992f8d51967c8e4cc2433f9a--neon-genesis-evangelion-posts.jpg">
+                <img src="https://read.mangadad.com/Mangadad/berserk/chapter-197/1.jpg">
+            </div>
+            <br>
+            <p class="bolder">Headings and paragraphs:</p>
+            <p> When considering the headings, I decided to take direct inspiration from the fonts used in the Neon
+                Genesis Evangelion franchise.
+                <br> My decision was guided primarily by the impact that this manga had during its production and
+                release time, and also by
+                its history: Neon Genesis Evangelion is one of the few cases in which the animation series (anime, in
+                Japanese) came before
+                its comic-book counterpart. This transition, however, didn't change the typographical or stylistic
+                nature of the franchise, but,
+                actually, contributed to making it iconic and unforgettable, a fundamental part of the narrative itself.
+            <p>
+            <div class="image-container" id="img-container-14">
+                <img src="https://i.redd.it/uik9w0c4kem71.jpg">
+                <img src="https://i.pinimg.com/originals/06/72/b5/0672b551852377fa5bf932da787432b7.jpg">
+                <img src="https://external-preview.redd.it/lBrEai3H0ltBDLEoF-pF6yB9uEbY5wA6YL7DesctEvQ.jpg">
+            </div>
+            <br>
+            <p> It was, however, more difficult to integrate a classic manga panel structure within a dense wall of
+                text, our articles:
+                I tried, at first, to divide every paragraph in sections contained in boxes and to recreate the correct
+                way to read
+                a manga (from right to left and from top to bottom, as explained by this <a
+                    href="https://study.soas.ac.uk/how-to-read-manga/#:~:text=Traditionally%2C%20manga%20stories%20are%20read,the%20bottom%20left%2Dhand%20corner.">
+                    article<a>.)
+                        However, at the end I decided to go for a more <span class="bolder">versatile asset</span>,
+                        maybe simpler, but absolutely relevant to this style and
+                        its main characteristics.
+                        <br> Paragraphs in this theme use a <a href="https://www.dafont.com/anime-ace-bb.font">specific
+                            font</a> created for manga and anime inspired content.<p>
+                            <p> All the fonts present in this theme, have been chosen with the critical and theoretical
+                                support given by
+                                this <a href="https://fontsinuse.com/uses/28760/neon-genesis-evangelion"> article </a>:
+                            <ul>
+                                <li> <span class="bolder">Anime-ACE</span> is based on (left): CC Wild Words Roman, font
+                                    created for Jim Lee’s Wildstorm books,
+                                    and that was featured not only in western and asian comic series, but also in TIME
+                                    Magazine and the LEGO catalog.
+                                    <br> Wildstorm production was a an American comic book imprint company founded in
+                                    1991 by Jim Lee, and then became part
+                                    of DC Comics in 1999. It was recently revived in 2017 after a forced shut down in
+                                    2010
+                                </li>
+                                <li> <span class="bolder"> Roboto </span> has been used for all the articles' headings,
+                                    since it's the most similar option to
+                                    some of the fonts used for titles and headings in the Neon Genesis Evangelion
+                                    franchise, such as (right):
+                                    Helvetica (designed by Max Miedinger in 1956) and Neue Helvetica (a revised version
+                                    of Helvetica, created in 1982 at Linotype).
+                                    <br> The shadows applied to the titles and headings are a reference to the same
+                                    decoration used in the Neon Genesis Evangelion's episodes screens
+                                    to create more <span class="bolder">depth and contrast</span> between the header
+                                    section and the article structure.
+                                </li>
+                            </ul>
+                        </p>
+                        <br>
+                        <p class="bolder">Images:</p>
+                        <p> The images have been filtered in <span class="bolder">grey scale</span>, to recreate the
+                            aesthetics of a manga illustration.
+                            <div class="image-container" id="img-container 15">
+                                <img
+                                    src="https://phantom-marca.unidadeditorial.es/8246657ecd0e1e9e3ef78f7e19abb3a6/resize/1200/f/webp/assets/multimedia/imagenes/2022/07/07/16572060638517.jpg">
+
+                            </div>
+                            <br>
+                            <p class="bolder"> Bibliography:</p>
+                            <ul>
+                                <li>Peiran, T. (2019, October 17th). Neon Genesis Evangelion - Graphic designer Peiran
+                                    Tan plumbs the typographic psyche of the celebrated anime franchise, FontsInUse: <a
+                                        href="https://fontsinuse.com/uses/28760/neon-genesis-evangelion">https://fontsinuse.com/uses/28760/neon-genesis-evangelion</a>
+                                </li>
+                                <li>Wilson, K. (s.d.). What is a manga panel?, MangaScout: <a
+                                        href="https://mangascout.com/manga-panel/">https://mangascout.com/manga-panel/</a>
+                                </li>
+                            </ul>
+                        </p>
+        </div>
+
+        <div class="documentationParagraph">
+            <br>
+            <span class="bolder">A glimpse of the future</span>
+            <p> The main inspiration behind this theme is the solarpunk aesthetic and its interpretations.
+                <br> We can define solarpunk as a science fiction literary subgenre and art movement, which investigates
+                and explores
+                an optimistic vision of the future: humans come together to win climate change's challenges and
+                obstacles, and therefore manage to
+                create a sustanaible existence for the entire planet.
+                As a complete opposite of the cyberpunk genre, solarpunk's aesthetic is <span
+                    class="bolder">bright</span> and deeply influenced by Art Deco, while from a philosophical point of
+                view it takes many values from eco-modernism,
+                anti-consumerism and positive psychology.
+            </p>
+            <p class="bolder"> Examples:</p>
+            <div class="image-container" id="img-container-16">
+                <img src="https://www.cienciaficcion.es/wp-content/uploads/2020/08/que-es-el-solarpunk.jpg">
+                <img
+                    src="https://www.lasepolturadellaletteratura.it/wp-content/uploads/2022/09/Solarpunk-copertina3.jpg">
+                <img src="https://pbs.twimg.com/media/FcDiNCcX0AgiOcv?format=jpg&name=large">
+            </div>
+            <br>
+            <p>
+                My interpretation of solarpunk is rooted in two different media sources: Nausicaa of the Valley of the
+                Wind, the videogame series Fallout
+                (specifically Fallout 4). </p>
+            <br>
+            <div class="image-container" id="img-container-17">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0853366713907.5b1fbc9ae6234.jpg">
+                <img
+                    src="https://ae01.alicdn.com/kf/H1b525e0702da40b4a776587f61c6b0b28/Studio-Ghibli-Nausicaa-valley-of-the-wind-Anime-Art-print-Silk-poster-Home-Wall-Decor.jpg">
+                <img
+                    src="https://static.wikia.nocookie.net/fallout/images/3/3d/Diamond_City_overview.jpg/revision/latest?cb=20160221001521">
+                <img src="https://guides.gamepressure.com/fallout4/gfx/word/365154207.jpg">
+            </div>
+            </p>
+            <br>
+            <p class="bolder">Headings and paragraphs:</p>
+            <p> From Nausicaa of the Valley of the Wind I took the "retro" and art deco inspiration, while Fallout
+                contributed to shape the paragraphs'
+                style and structure: my idea was to create an interface similar to the one of an old cathode tube screen
+                (like <a
+                    href="https://www.eljugondemovil.com/wp-content/uploads/2015/11/El-Jugon-De-Movil-Pip-Boy-Portada-1280x720.jpg">those</a>
+                that you could
+                find in the world of Fallout), with a dark background and a flickering display, and to complete it with
+                fonts and colors coming
+                directly from the solarpunk aesthetic (earth tones, various shades of green). </p>
+            <p> Let's now focus on this theme's fonts:</p>
+            <ul>
+                <li><span class="bolder"> Brassia </span> is a (left): font created by Ariel Martín Pérez, member of the
+                    Velvetyne Type Foundry,
+                    during a workshop hold on February the 14th 2019 in occasion of the Fig. Festival in Liège, Belgium.
+                    <br> Completely designed to represent a contemporary interpretation of the solarpunk genre,
+                    Brassia's name derives from
+                    the city of Brussels, Brasseurs and by a botanical genus of orchids; it is free to download, modify
+                    and use.
+                </li>
+                <li><span class="bolder"> CourierPrime </span> was instead chosen for being one of the most economical
+                    and eco-sustainable fonts,
+                    according to multiple sources, and therefore it is perfect for a solarpunk interface.
+                    This theme implements it in all of its paragraphs. </li>
+            </ul>
+            <div class="image-container" id="img-container-18">
+                <img src="https://velvetyne.fr/site/assets/files/1381/brassia01b.jpg">
+                <img src="https://velvetyne.fr/site/assets/files/1381/brassia04.jpg">
+                <img src="https://www.fontshmonts.com/wp-content/uploads/2019/11/courier-prime-02-1500x1000.jpg">
+            </div>
+            <br>
+            <p class="bolder"> Bibliography:</p>
+            <ul>
+                <li> coffeemug. (2014, August 27). CRTs vs. LCDs: Nostalgia and Environmental Impacts, VTSun - Virginia
+                    Tech Sustainable Nanotechnology: <a
+                        href="https://blogs.lt.vt.edu/sustainablenano/2014/08/27/crts-vs-lcds-nostalgia-and-environmental-impacts/">https://blogs.lt.vt.edu/sustainablenano/2014/08/27/crts-vs-lcds-nostalgia-and-environmental-impacts/</a>
+                </li>
+                <li>FormaFantasma. (s.d.). FormaFantasma - Studio, FormaFantasma:<a
+                        href="https://formafantasma.com/studio">https://formafantasma.com/studio</a></li>
+                <li>Solarpunk Community. A Solarpunk Manifesto. Retrieved from Regenerative Design: <a
+                        href="http://www.re-des.org/a-solarpunk-manifesto/">http://www.re-des.org/a-solarpunk-manifesto/</a>
+                </li>
+                <li>Velvetyne - Libre e Open Source Type Foundry. (2019, February 25). TYPEFACES FROM A SOLARPUNK FUTURE
+                    AT FIG. FESTIVAL, Velvetyne: <a
+                        href="https://velvetyne.fr/news/typefaces-from-a-solarpunk-future-at-fig-festival/">https://velvetyne.fr/news/typefaces-from-a-solarpunk-future-at-fig-festival/</a>
+                </li>
+            </ul>
+            </p>
+        </div>
+        </div>
+    </section>
+    <section id="contact" class="white-bg border-top home-section">
+        <h2 class="title-section">Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel mollis mauris, quis sollicitudin tellus.
+            Aliquam ultrices erat sed ligula ornare, id faucibus turpis pretium. Praesent egestas tellus ut nulla
+            ultricies imperdiet. Nullam non dolor sit amet dolor bibendum varius. Ut sed ex ac purus finibus vestibulum
+            eu id mi. Pellentesque at consectetur leo. Sed vel sapien congue, dapibus ipsum vitae, egestas lorem.
+            Quisque vel posuere leo. Suspendisse vestibulum, orci fermentum placerat aliquam, urna eros pharetra risus,
+            quis dignissim nulla eros a metus. Mauris velit ante, rhoncus dictum aliquam sit amet, auctor ac augue. Ut
+            eu vestibulum lorem, non laoreet orci. Pellentesque tempor volutpat nibh, ac posuere nisi mollis ut. Nam
+            scelerisque volutpat velit at mattis.</p>
+        <p>Vestibulum sed diam scelerisque, suscipit enim et, pharetra orci. In ornare lacus at enim lacinia convallis.
+            Curabitur iaculis elit commodo augue tempus pellentesque. Etiam ullamcorper felis ut magna maximus
+            pellentesque eu eget erat. Donec orci nibh, lacinia at erat eget, malesuada aliquet ipsum. Nunc velit eros,
+            cursus eget ligula at, tempus sagittis ante. Fusce suscipit sagittis tortor, sit amet consequat ex gravida
+            vel. Nullam placerat ornare massa, ac malesuada nibh. Ut viverra luctus tincidunt. Phasellus elementum
+            egestas metus, nec ultrices tellus sodales id. Nullam arcu mauris, bibendum non lorem id, efficitur porta
+            nibh. Donec sollicitudin neque a turpis scelerisque sollicitudin. Cras scelerisque facilisis turpis at
+            pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    </section>
+    <button onclick="topFunction()" id="backToTop" title="Go to top">↑</button>
+
+    <script>
+        var mybutton = document.getElementById("backToTop");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
-              } else {
+            } else {
                 mybutton.style.display = "none";
-              }
             }
-            function topFunction() {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
-            }
-        </script>
-    </body>
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
 </html>
