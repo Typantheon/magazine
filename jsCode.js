@@ -51,7 +51,7 @@ function highlight(entity) {
     var a = 100;
     for (let i = 0; i < spans.length; i++) {
         if (spans[i].getAttribute('data-sort') == entityName) {
-            switch (spans[i].getAttribute('class') {
+            switch (spans[i].getAttribute('class')) {
                 case 'place' :
                     spans[i].classList.add('place-bg');
                     break;
