@@ -457,6 +457,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
   border: 1px #d3d3d3 solid;
   color: #333;
   padding: 0.5em;
+  font-family: 'Lora', sans-serif;
 }
 
 .image-container > div > button:hover {
