@@ -73,6 +73,9 @@ function highlight(entity) {
                 case'epithet':
                     spans[i].classList.add('epithet-bg');
                     break;
+                case 'domain':
+                    spans[i].classList.add('domain-bg');
+                    break;
             }
             if (i < a) {
                 a = i
