@@ -49,7 +49,7 @@ function highlight(entity) {
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
     for (let i = 0; i < spans.length; i++) {
-        if (spans[i].getAttribute('data-label') == entityName) {
+        if (spans[i].getAttribute('data-sort') == entityName) {
             if (spans[i].getAttribute('class') == 'place') {
                 spans[i].classList.add('place-bg');
             }
