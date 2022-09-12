@@ -82,6 +82,11 @@ function highlight(entity) {
         else {
             spans[i].classList.remove('place-bg');
             spans[i].classList.remove('culture-bg');
+            spans[i].classList.remove('literature-bg');
+            spans[i].classList.remove('epithet-bg');
+            spans[i].classList.remove('language-bg');
+            spans[i].classList.remove('rituals-bg');
+            spans[i].classList.remove('event-bg');
         }
     }
 }
