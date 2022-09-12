@@ -69,6 +69,15 @@ img {
     filter: saturate(5);
 }
 
+body {
+background: rgba(115, 138, 127, 0.55);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.5px);
+-webkit-backdrop-filter: blur(12.5px);
+border: 1px solid rgba(115, 138, 127, 0.51);
+} 
+
 
 h1 {
     color:#000000;
@@ -341,7 +350,7 @@ tr:last-child > td {
     border-bottom: none!important;
 }
 
-.body {
+.article-inner {
   animation:colorPulse 5s infinite ease-in-out;
   background-image:radial-gradient(#444, #111);
   box-shadow:0 0 5vmin 1vmin #000 inset;
@@ -351,6 +360,37 @@ tr:last-child > td {
   overflow:hidden;
   padding:10vmin;
   width:100vw;
+}
+
+.article-inner::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+}
+.article-inner::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+.article-inner {
+  animation: textShadow 1.6s infinite;
 }
 
 p:last-child:after {
