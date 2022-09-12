@@ -189,6 +189,9 @@ h2 {
     font-family: 'Roboto';
     text-align: center;
     color: #000000;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 #article-inner > hr {
     display: block;
@@ -247,6 +250,9 @@ h3 {
     text-align: center;
     font-size: 36pt;
     text-shadow:0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 
 h4 {
@@ -254,6 +260,9 @@ h4 {
     text-align: center;
     font-size: 24pt;
     text-shadow:2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 
 #article-inner ul {
