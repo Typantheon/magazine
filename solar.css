@@ -70,11 +70,14 @@ img {
 }
 
 body {
-    font-family: 'CourierPrime-Regular' !important;
-    width: 100%;
-    background-size: 100% 5%;
-    color: #54428E;
+    	font-family: 'CourierPrime-Regular' !important;
+    	width: 100%;
+   	 background-size: 100% 5%;
+    	color: #54428E;
+	margin: 0; 
+	overflow: hidden;
 }
+
 h1 {
     color:#000000;
     font-size: 60pt;
@@ -103,6 +106,19 @@ h1 {
 	padding:10vmin;
 	width:100v
 }
+
+.p {
+	animation:colorPulse 5s infinite ease-in-out;
+	background-image:radial-gradient(#444, #111);
+	box-shadow:0 0 5vmin 1vmin #000 inset;
+	font-size:20px;
+	height:100vh;
+	overflow:hidden;
+	padding:10vmin;
+	width:100v
+}
+	
+
 #article, #article-inner {
     margin-top: 2.5em;
     margin-bottom: 3em;
