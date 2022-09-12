@@ -311,7 +311,7 @@ table {
 }
 
 label{
-    display:block;
+    display:none;
     font-weight:700;
     background:#748484;
     width:42px;
@@ -339,7 +339,6 @@ i {
      z-index:601;
 }
 #secondLabel {
-     display:none;
      bottom: 57px;
      z-index: 599;
 }
