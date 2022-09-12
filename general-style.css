@@ -450,7 +450,13 @@ input[type="checkbox"]:checked ~ #articleToRead{
     animation-fill-mode: forwards;
     background-color: #c2f3a4;
 }
-
+.epithet-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #da8ee7 
+}
 
 @keyframes background-opacity {
   from {opacity: 0;}
