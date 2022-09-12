@@ -64,7 +64,7 @@ function highlight(entity) {
                 case'ritual':
                     spans[i].classList.add('rituals-bg');
                     break;
-                case'language':
+                case'languages':
                     spans[i].classList.add('language-bg');
                     break;
                 case'literature':
