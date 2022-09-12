@@ -5,7 +5,7 @@ function changeStylesheet(css) {
         stylesheets[2].setAttribute('href', css);
     }
     else {
-        addStylesheet(css);
+        addStylesheet(css); 
     }
     switch (css) {
         case '../retro60s.css':
