@@ -58,7 +58,6 @@
             <p>Look for Named Entities</p>
             <hr>
             <div id="entities">
-                <span class="selectMetadata">Select Metadata</span>
                 <ul id="badgeList">
                     <li class="badge">Cultures</li>
                     <li class="badge">Domains</li>
@@ -149,9 +148,6 @@
         </section>
         <script>
             $(document).ready(function(){
-                $("selectMetadata").click(function(){
-                    $("#badgeList").show();
-                });
                 $(".dyonisus").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/dyonisus.html");
                     $("label").show();
