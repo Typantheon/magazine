@@ -317,6 +317,7 @@ label{
     width:42px;
     height:42px;
     line-height:42px;
+    border-radius: 50%;
     color:#fff !important;
     text-align:center;
     font-size:2em;
