@@ -300,7 +300,7 @@ table {
    z-index: 598;
 }
 
-#metadata-viewer > p {
+#metadata-viewer > p, #article-aside > p {
    padding-left: 18px !important;
    width: 100% !important;
 }
