@@ -186,7 +186,6 @@ h1 {
 h2 {
     padding-top: 2em;
     font-size: 48pt;
-    font-family: 'Roboto';
     text-align: center;
     color: #000000;
     text-transform: uppercase;
@@ -229,6 +228,7 @@ figcaption {
     margin: auto;
     background-color: #cf4b3a;
     text-align: center;
+    font-family:  'Anime ACE BB';
     font-size: 12pt;
     line-height: 1em;
     width: 80%;
@@ -246,7 +246,6 @@ figcaption {
 }
 
 h3 {
-    font-family: 'Roboto';
     text-align: center;
     font-size: 36pt;
     text-shadow:0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
@@ -256,7 +255,6 @@ h3 {
 }
 
 h4 {
-    font-family: 'Roboto';
     text-align: center;
     font-size: 24pt;
     text-shadow:2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
