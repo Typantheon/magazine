@@ -293,6 +293,7 @@ table {
 
 #metadata-viewer {
    z-index: 600;
+   overflow: auto;
 }
 
 #article-aside {
@@ -313,7 +314,7 @@ table {
 label{
     display:none;
     font-weight:700;
-    background:#748484;
+    background-color: #183a37;
     width:42px;
     height:42px;
     line-height:42px;
