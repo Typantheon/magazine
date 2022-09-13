@@ -317,7 +317,8 @@ label{
     background-color: #183a37;
     width:50px;
     height: 50px;
-    line-height:50px;
+    padding-top:5px;
+    line-height:45px;
     border-radius: 50%;
     color:#fff !important;
     text-align:center;
