@@ -45,15 +45,16 @@ function addStylesheet(fileName) {
 /* metadata */
 
 function highlight(entity) {
+    const entities = document.querySelectorAll('li[class~=bolder]');
+    for (let i = 0; i < entities.length; i++) {
+      entities[i].classList.remove('bolder');
+    }
+    entity.classList.add('bolder');
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
     var a = 300;
     for (let i = 0; i < spans.length; i++) {
-        if (spans[i].hasAttribute('name')) {
-            spans[i].classList.remove('bolder');
-        }
         if (spans[i].getAttribute('data-sort') == entityName) {
-            spans[i].classList.add('bolder');
             switch (spans[i].getAttribute('class')) {
                 case 'place' :
                     spans[i].classList.add('place-bg');
