@@ -98,7 +98,9 @@ function highlight(entity) {
                 document.getElementById('wikiLink').setAttribute('href', link);
                 document.getElementById('wikiLink').setAttibute('target', '_blank');
             }
-           
+            else {
+                document.getElementById('wikiLink').style.display="none";
+            }           
         }
         else {
             spans[i].classList.remove('place-bg');
