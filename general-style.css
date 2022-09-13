@@ -526,4 +526,16 @@ input[type="checkbox"]:checked ~ #articleToRead{
   padding-bottom: 0.8em;
 }
 
-    
+/*meet the team*/
+.container, .row {
+   width: 100%;
+}
+
+.our-team {
+   width: 30%;
+   display:inline-block;
+}
+
+
+	
+
