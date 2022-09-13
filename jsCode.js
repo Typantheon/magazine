@@ -94,9 +94,9 @@ function highlight(entity) {
             }
             if (spans[i].hasAttribute('wikidata')) {
                 var link = spans[i].getAttribute('wikidata');
+                var openLink = "window.open('" + link + "')"
                 document.getElementById('wikiLink').style.display="block";
-                document.getElementById('wikiLink').setAttribute('href', link);
-                document.getElementById('wikiLink').setAttibute('target', '_blank');
+                document.getElementById('wikiLink').setAttribute('onclick', openLink);
             }
             else {
                 document.getElementById('wikiLink').style.display="none";
