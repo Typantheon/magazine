@@ -186,6 +186,7 @@ h1 {
 h2 {
     padding-top: 2em;
     font-size: 48pt;
+    font-family:"Helvetica";
     text-align: center;
     color: #000000;
     text-transform: uppercase;
@@ -225,14 +226,18 @@ figure {
 figcaption {
     color: #00000;
     display: block;
+    order: 2px solid #333;
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+    padding: 4%;
+    width: 140px;
+    margin-left: 340px;
+    font-size: 14pt;
     margin: auto;
-    background-color: #cf4b3a;
+    background-color: #ffffff;
     text-align: center;
     font-family:  'Anime ACE BB';
     font-size: 12pt;
     line-height: 1em;
-    width: 80%;
-    padding: 0.6em;
 }
 
 #article-inner > div {
@@ -248,6 +253,7 @@ figcaption {
 h3 {
     text-align: center;
     font-size: 36pt;
+    font-family:"Helvetica";
     text-shadow:0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
     text-transform: uppercase;
     font-weight: 100;
@@ -257,6 +263,7 @@ h3 {
 h4 {
     text-align: center;
     font-size: 24pt;
+    font-family:"Helvetica";
     text-shadow:2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
     text-transform: uppercase;
     font-weight: 100;
