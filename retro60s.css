@@ -10,7 +10,7 @@
 /* the navbar */
 
 nav {
-    position: fixed;
+    position: absolute;
     width: 100%;
     left: 0;
     top: -10px;
