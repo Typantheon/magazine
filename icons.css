@@ -48,8 +48,8 @@
   z-index: -1;
 }
 
-.our-team .picture img {
-  height: 130px;
+.picture > img {
+  max-height: 130px;
   width: 130px;
   object-fit: cover;
   height: auto;
