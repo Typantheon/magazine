@@ -87,6 +87,12 @@ function highlight(entity) {
                 case 'domain':
                     spans[i].classList.add('domain-bg');
                     break;
+                case 'subject':
+                    spans[i].classList.add('subject-bg');
+                    break;
+                case 'connections':
+                    spans[i].classList.add('connection-bg');
+                    break;
             }
             if (i < a) {
                 a = i
@@ -111,6 +117,8 @@ function highlight(entity) {
             spans[i].classList.remove('rituals-bg');
             spans[i].classList.remove('event-bg');
             spans[i].classList.remove('domain-bg');
+            spans[i].classList.remove('connection-bg');
+            spans[i].classList.remove('subject-bg');
         }
     }
 }
