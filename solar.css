@@ -223,7 +223,7 @@ figcaption {
     color: #00000;
     display: block;
     margin: auto;
-    background-color: #cf4b3a;
+    background-color: #000000;
     text-align: center;
     font-size: 12pt;
     line-height: 1em;
@@ -264,7 +264,7 @@ blockquote {
     -moz-column-span:all;
     -webkit-column-span:all;
     column-span:all;
-    font-family: "Anime ACE BB";
+    font-family: "CourierPrime-Regular";
     font-size:32px;
     font-weight:normal;
     padding:15px 0;
@@ -350,7 +350,7 @@ tr:last-child > td {
     border-bottom: none!important;
 }
 
-.article-inner {
+.body {
   animation:colorPulse 5s infinite ease-in-out;
   background-image:radial-gradient(#444, #111);
   box-shadow:0 0 5vmin 1vmin #000 inset;
@@ -362,7 +362,7 @@ tr:last-child > td {
   width:100vw;
 }
 
-.article-inner::after {
+.body::after {
   content: " ";
   display: block;
   position: absolute;
@@ -376,7 +376,7 @@ tr:last-child > td {
   pointer-events: none;
   animation: flicker 0.15s infinite;
 }
-.article-inner::before {
+.body::before {
   content: " ";
   display: block;
   position: absolute;
@@ -389,7 +389,7 @@ tr:last-child > td {
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
 }
-.article-inner {
+.body {
   animation: textShadow 1.6s infinite;
 }
 
