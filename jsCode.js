@@ -45,12 +45,15 @@ function addStylesheet(fileName) {
 /* metadata */
 
 function highlight(entity) {
-    console.log(entity);
     var entityName = entity.getAttribute('name');
     const spans = document.getElementsByTagName("span");
     var a = 300;
     for (let i = 0; i < spans.length; i++) {
+        if (spans[i].hasAttribute('name')) {
+            spans[i].classList.remove('bolder');
+        }
         if (spans[i].getAttribute('data-sort') == entityName) {
+            spans[i].classList.add('bolder');
             switch (spans[i].getAttribute('class')) {
                 case 'place' :
                     spans[i].classList.add('place-bg');
@@ -90,6 +93,7 @@ function highlight(entity) {
             spans[i].classList.remove('language-bg');
             spans[i].classList.remove('rituals-bg');
             spans[i].classList.remove('event-bg');
+            spans[i].classList.remove('domain-bg');
         }
     }
 }
