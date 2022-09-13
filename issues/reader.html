@@ -62,6 +62,8 @@
             <hr>
             <div id="entities">
                 <ul id="badgeList">
+                    <li class="badge">Subject</li>
+                    <li class="badge">Connections</li>
                     <li class="badge">Cultures</li>
                     <li class="badge">Domains</li>
                     <li class="badge">Epithets</li>
@@ -71,6 +73,10 @@
                     <li class="badge">Places</li> 
                     <li class="badge">Rituals</li>
                 </ul>
+                <div class="entities-list" id="subjectList">
+                </div>
+                <div class="entities-list" id="connectionsList">
+                </div>
                 <div class="entities-list" id="culturesList">
                 </div>
                 <div class="entities-list" id="domainList">
@@ -188,6 +194,7 @@
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> The Cailleach </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
+                    $("#subjectList").html("<ul><li name='cailleach' onlcik='highlight(this)></li></ul>");
                 }); 
                 $(".loki").click(function(){
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/loki.html");
