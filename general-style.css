@@ -260,7 +260,8 @@ ul li a {
 
 #themes-list {
     margin-top: -18px!important;
-    z-index:101
+    z-index:101;
+    display: none;
 }
 
 table {
