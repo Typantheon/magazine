@@ -5,7 +5,7 @@
 
 html{
     cursor: url(../images/nib-cursor.png), auto;
-    font-family: gutenberg;
+    font-family: 'gutenberg';
 }
 
 /* the navbar */
