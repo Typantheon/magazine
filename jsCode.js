@@ -31,6 +31,11 @@ function changeStylesheet(css) {
             break;
 
     }
+    if (css != '../retro60s.css') {
+        const img1 = document.getElementById('over-img-1');
+        const img2 = document.getElementById('over-abstract');
+        img1.remove();
+        img2.remove();
 };
 
 function addStylesheet(fileName) {
