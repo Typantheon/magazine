@@ -5,7 +5,10 @@
 
 html{
     cursor: url(../images/nib-cursor.png), auto;
-    font-family: 'gutenberg';
+}
+
+body {
+    font-family: 'gutenberg' !important;
 }
 
 /* the navbar */
