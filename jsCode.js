@@ -110,7 +110,7 @@ $(function () {
 /*documentation Selector */
 $(function () {
     $('.stylesListItem').click(function () {
-        $(this).classList.add('activeBadge');
+        this.classList.add('activeBadge');
         var index = $(this).parent().children().index(this);
         var secondIndex = index - 1
         var translation = 7.5 + ((index - 1) * 15);
