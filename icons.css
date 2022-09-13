@@ -50,6 +50,7 @@
 
 .our-team .picture img {
   width: 100%;
+  object-fit: cover;
   height: auto;
   border-radius: 50%;
   transform: scale(1);
