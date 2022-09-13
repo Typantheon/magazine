@@ -36,6 +36,7 @@ function changeStylesheet(css) {
         const img2 = document.getElementById('over-abstract');
         img1.remove();
         img2.remove();
+    }
 };
 
 function addStylesheet(fileName) {
