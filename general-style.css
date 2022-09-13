@@ -130,7 +130,7 @@ section > p , .documentationParagraph p {
 .white-bg {
     background-color: #fff;
 }
-#backToTop {
+#backToTop, #resetButton {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -150,6 +150,8 @@ section > p , .documentationParagraph p {
 #backToTop:hover {
     background-color: #04151f;
 }
+
+
 
 /*documentation */
 
@@ -339,11 +341,11 @@ i {
 }
 
 #firstLabel {
-     bottom:10px;
+     bottom:20px;
      z-index:601;
 }
 #secondLabel {
-     bottom: 71px;
+     bottom: 81px;
      z-index: 599;
 }
 
