@@ -472,6 +472,22 @@ input[type="checkbox"]:checked ~ #articleToRead{
     background-color: #cb3552;
 }
 
+.subject-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #d2a56d;
+}
+
+.connection-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: 84c3be;
+}
+
 .event-bg {
     opacity:0;
     animation-name: background-opacity;
