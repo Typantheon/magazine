@@ -73,8 +73,8 @@ body {
     font-family: 'body' !important;
     width: 100%;
     background-image: url('images/bg20s.png');
-    background-size: 100% 50%;
-    background-repeat: repeat;
+    background-size: 100% 20%;
+    background-attachment: fixed;
     color: #656770;
 }
 h1 {
