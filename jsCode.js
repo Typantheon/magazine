@@ -92,6 +92,13 @@ function highlight(entity) {
                 a = i
                 spans[a].scrollIntoView({ behavior: 'smooth', block: "center" }, true);
             }
+            if (spans[i].hasAttribute('wikidata') {
+                var link = spans[i].getAttribute('wikidata');
+                document.getElementById('wikiLink').style.display="block";
+                document.getElementById('wikiLink').setAttribute('href', link);
+                document.getElementById('wikiLink').setAttibute('target', '_blank');
+            }
+           
         }
         else {
             spans[i].classList.remove('place-bg');
