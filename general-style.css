@@ -496,8 +496,8 @@ input[type="checkbox"]:checked ~ #articleToRead{
   margin-left: 10%;
 }
 
-.image-container > div > p > a, #article-aside li, #navLogo {
-  color: #04151f;
+.image-container > div > p > a, #article-aside li, #navLogo, #navLogo > a {
+  color: #04151f !important;
   text-decoration: underline;
   text-decoration-color: #efd6ac !important;
   text-decoration-thickness: 2px;
