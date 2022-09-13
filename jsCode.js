@@ -101,6 +101,7 @@ function highlight(entity) {
 
 $(function () {
     $('.badge').click(function () {
+        console.log($("#badgeList").find(".activeBadge"));
         $("#badgeList").find(".activeBadge").removeClass(".activeBadge");
         this.classList.add('activeBadge');
         var index = $(this).parent().children().index(this);
