@@ -101,6 +101,7 @@ function highlight(entity) {
 
 $(function () {
     $('.badge').click(function () {
+        this.classList.add('activeBadge');
         var index = $(this).parent().children().index(this);
         $("#entities").find(".active").removeClass("active");
         $(".entities-list").get(index).classList.add("active");
@@ -110,7 +111,6 @@ $(function () {
 /*documentation Selector */
 $(function () {
     $('.stylesListItem').click(function () {
-        this.classList.add('activeBadge');
         var index = $(this).parent().children().index(this);
         var secondIndex = index - 1
         var translation = 7.5 + ((index - 1) * 15);
