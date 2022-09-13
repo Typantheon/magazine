@@ -7,6 +7,7 @@ function changeStylesheet(css) {
     else {
         addStylesheet(css); 
     }
+    document.getElementById('resetButton').style.display="block";
     switch (css) {
         case '../retro60s.css':
             var innerArticle = document.getElementById('article-inner');
@@ -16,7 +17,7 @@ function changeStylesheet(css) {
             img2.setAttribute('id', 'over-abstract');
             img2.setAttribute('src', '../images/flower.png');
             document.getElementById('article').appendChild(img1);
-            innerArticle.insertBefore(img2, innerArticle.firstChild)
+            innerArticle.insertBefore(img2, innerArticle.firstChild);
             break;
         case '../manga.css':
             var js_script = document.createElement('script');
