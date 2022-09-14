@@ -529,3 +529,9 @@ tr:last-child > td {
   }
 }
 
+input[type="checkbox"]:checked ~ body{
+    -webkit-transform:translate3d(150px, 0, 0);
+    -moz-transform:translate3d(150px, 0, 0);
+    -o-transform:translate3d(150px, 0, 0);
+    transform:translate3d(150px, 0, 0);
+}
