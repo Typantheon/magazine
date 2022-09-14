@@ -17,7 +17,7 @@ function changeStylesheet(css) {
             document.getElementById('article').appendChild(img1);
             const ps = document.getElementsByTagName('p');
             for (let i = 0; i < ps.length; i++) {
-              if(ps[i].getAttribute('class') == 'pubnote') {
+              if(ps[i].getAttribute('class') == 'pubnote abs') {
                 img2.setAttribute('id', 'over-abstract');
                 img2.setAttribute('src', '../images/flower.png');
                 innerArticle.insertBefore(img2, innerArticle.firstChild);
