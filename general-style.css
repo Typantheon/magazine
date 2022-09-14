@@ -503,6 +503,38 @@ input[type="checkbox"]:checked ~ #articleToRead{
     background-color: #da8ee7 
 }
 
+pop-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #F0E7D8  
+}
+
+object-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #BA6E6E 
+}
+
+morality-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #464D77 
+}
+
+powers-bg {
+    opacity:0;
+    animation-name: background-opacity;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: #D7FCD4 
+}
+
 @keyframes background-opacity {
   from {opacity: 0;}
   to {opacity: 1;}
