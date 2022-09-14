@@ -48,9 +48,11 @@ function changeStylesheet(css) {
         for (let i = 0; i < imgs.length; i++) {
             if(imgs[i].getAttribute('id') == 'over-abstract') {
                 imgs[i].remove();
+                console.log(imgs[i]);
             }
             else if (imgs[i].getAttribute('id') == 'over-img-1') {
                 imgs[i].remove();
+                console.log(imgs[i]);
             }    
         }
     }
