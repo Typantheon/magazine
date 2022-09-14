@@ -70,6 +70,7 @@ img {
 }
 
 body {
+width: 100%;
 background: rgba(115, 138, 127, 0.55);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
