@@ -45,7 +45,7 @@ function changeStylesheet(css) {
     }
     if (css != '../retro60s.css') {
         $("over-abstract").hide();
-        $("over-img-1)".hide();
+        $("over-img-1").hide();
     }
     if (css != '../manga.css') {
         const scripts = document.getElementsByTagName('script');
