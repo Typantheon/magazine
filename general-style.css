@@ -503,7 +503,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
     background-color: #da8ee7 
 }
 
-pop-bg {
+.pop-bg {
     opacity:0;
     animation-name: background-opacity;
     animation-duration: 2s;
@@ -511,7 +511,7 @@ pop-bg {
     background-color: #F0E7D8  
 }
 
-object-bg {
+.object-bg {
     opacity:0;
     animation-name: background-opacity;
     animation-duration: 2s;
@@ -519,7 +519,7 @@ object-bg {
     background-color: #BA6E6E 
 }
 
-morality-bg {
+.morality-bg {
     opacity:0;
     animation-name: background-opacity;
     animation-duration: 2s;
@@ -527,7 +527,7 @@ morality-bg {
     background-color: #464D77 
 }
 
-powers-bg {
+.powers-bg {
     opacity:0;
     animation-name: background-opacity;
     animation-duration: 2s;
