@@ -165,14 +165,14 @@ h1 {
 #article-inner img {
     border: #656770 solid 1em;
 }
-#article-inner > p, #article-inner > a, #article-inner > div > p  {
+#article-inner > p, #article-inner > a, #article-inner > div > p, .container p  {
     display: block;
     margin-top: 1em;
     text-align: justify;
-    padding-left: 5em;
-    padding-right: 5em;
-    width: calc(100% - 10em);
-    font-size: 14pt;
+    padding-left: 5em !important;
+    padding-right: 5em !important;
+    width: calc(100% - 10em) !important;
+    font-size: 14pt !important;
     color: #656770;
 }
 
