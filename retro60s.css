@@ -17,6 +17,13 @@ nav {
     z-index:101;
  }
  
+#navLogo > a {
+    color: #FFF1D2 !important;
+    text-decoration: none !important;
+}
+    
+    
+
  nav > ul {
      background-color: #cf4b3a;
      padding-top: 0px;
@@ -37,6 +44,10 @@ nav {
     width: 100%;
     left: 0;
     color: #594b50;
+}
+
+#themes-list p {
+    color: #594b50 !important;
 }
 
 .sticky {
@@ -72,7 +83,7 @@ body {
     box-shadow: 0px 0px 0px 8px #27315D, 0px 0px 0px 14px #51AEA7, 0px 0px 0px 20px #F6AB5A, 0px 0px 0px 26px #D95852;    
 }
 #article {
-    margin-top: 175px !important;
+    margin-top: 195px !important;
     content: "";
     clear: both;
     display: table;
