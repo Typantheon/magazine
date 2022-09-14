@@ -707,7 +707,10 @@ footer {
 }
 
 footer > p {
-	text-align: center;
+  text-align: center;
+  text-decoration: underline; 
+  text-decoration-color: #efd6ac !important;
+  text-decoration-thickness: 2px;
 }
 
 footer > i {
