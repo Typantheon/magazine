@@ -118,6 +118,7 @@ h1 {
 }
 
 .header-img {
+    max-width: 600px;
     width:35em;
     height: 35em;
     object-fit:cover;
