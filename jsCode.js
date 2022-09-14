@@ -38,10 +38,15 @@ function changeStylesheet(css) {
 
     }
     if (css != '../retro60s.css') {
-        const img1 = document.getElementById('over-img-1');
-        const img2 = document.getElementById('over-abstract');
-        img1.remove();
-        img2.remove();
+        const imgs = document.getElementsByTagName('img');
+            for (let i = 0; i < imgs.length; i++) {
+                if(imgs[i].getAttribute('id') == 'over-img-1') {
+                    imgs[i].remove();
+                }
+                if(imgs[i].getAttribute('id') == 'over-abstract') {
+                   imgs[i].remove();
+                }
+        }
     }
 };
 
