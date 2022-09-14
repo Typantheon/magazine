@@ -10,11 +10,7 @@ function changeStylesheet(css) {
         else {
             addStylesheet(css); 
         }
-    }
-    else {
-        $("#resetButton").hide();
-    }
-    switch (css) {
+        switch (css) {
         case '../retro60s.css':
             var innerArticle = document.getElementById('article-inner');
             const img1 = document.createElement('img'), img2 = document.createElement('img');
@@ -41,7 +37,10 @@ function changeStylesheet(css) {
             break;
         case '../revo_style.css':
             break;
-
+        }
+    }
+    else {
+        $("#resetButton").hide();
     }
     if (css != '../retro60s.css') {
         const imgs = document.getElementsByTagName('img');
@@ -52,7 +51,7 @@ function changeStylesheet(css) {
                 if(imgs[i].getAttribute('id') == 'over-abstract') {
                    imgs[i].remove();
                 }
-        }
+            }
     }
 };
 
