@@ -515,15 +515,15 @@ input[type="checkbox"]:checked ~ #articleToRead{
   margin-bottom: 2.5em;
 }
 
-@media (max-width:900px){
+@media only screen and (min-width: 481px) (max-width:900px){
         .image-container > div {
             width: 48%;
         }
     }
 
-@media (max-width:400px){
+@media only screen and (max-width:480px){
         .image-container > div {
-            width: 100%;
+            width: 99%;
 	    display: block;
         }
     }
