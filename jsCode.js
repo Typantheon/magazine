@@ -44,16 +44,8 @@ function changeStylesheet(css) {
         stylesheets[2].remove();
     }
     if (css != '../retro60s.css') {
-        const imgs = document.getElementsByTagName('img');
-        for (let i = 0; i < imgs.length; i++) {
-            console.log(imgs[i]);
-            if (imgs[i].getAttribute('id') == 'over-abstract') {
-                imgs[i].remove();
-            }
-            if (imgs[i].getAttribute('id') == 'over-img-1') {
-                imgs[i].remove();
-            }    
-        }
+        $("over-abstract").hide();
+        $("over-img-1)".hide();
     }
     if (css != '../manga.css') {
         const scripts = document.getElementsByTagName('script');
