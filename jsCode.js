@@ -93,6 +93,18 @@ function highlight(entity) {
                 case 'connections':
                     spans[i].classList.add('connection-bg');
                     break;
+                case 'object':
+                    spans[i].classList.add('object-bg');
+                    break;
+                case 'pop-culture':
+                    spans[i].classList.add('pop-bg');
+                    break;
+                case 'morality':
+                    spans[i].classList.add('morality-bg');
+                    break;
+                case 'powers':
+                    spans[i].classList.add('powers-bg');
+                    break;
             }
             if (i < a) {
                 a = i
@@ -119,6 +131,10 @@ function highlight(entity) {
             spans[i].classList.remove('domain-bg');
             spans[i].classList.remove('connection-bg');
             spans[i].classList.remove('subject-bg');
+            spans[i].classList.remove('powers-bg');
+            spans[i].classList.remove('morality-bg');
+            spans[i].classList.remove('pop-bg');
+            spans[i].classList.remove('object-bg');
         }
     }
 }
