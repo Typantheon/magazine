@@ -10,16 +10,16 @@ function changeStylesheet(css) {
     document.getElementById('resetButton').style.display="block";
     switch (css) {
         case '../retro60s.css':
-            const ps = document.getElementByTagName('p');
+            var innerArticle = document.getElementById('article-inner');
+            const img1 = document.createElement('img'), img2 = document.createElement('img');
+            img1.setAttribute('id', 'over-img-1');
+            img1.setAttribute('src', '../images/buttfly.png');
+            document.getElementById('article').appendChild(img1);
+            const ps = document.getElementsByTagName('p');
             for (let i = 0; i < ps.length; i++) {
               if(ps[i].getAttribute('class') == 'pubnote') {
-                var innerArticle = document.getElementById('article-inner');
-                const img1 = document.createElement('img'), img2 = document.createElement('img');
-                img1.setAttribute('id', 'over-img-1');
-                img1.setAttribute('src', '../images/buttfly.png');
                 img2.setAttribute('id', 'over-abstract');
                 img2.setAttribute('src', '../images/flower.png');
-                document.getElementById('article').appendChild(img1);
                 innerArticle.insertBefore(img2, innerArticle.firstChild);
               }
             }
