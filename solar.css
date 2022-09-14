@@ -528,10 +528,3 @@ tr:last-child > td {
     opacity:0;
   }
 }
-
-input[type="checkbox"]:checked html > body{
-    -webkit-transform:translate3d(150px, 0, 0);
-    -moz-transform:translate3d(150px, 0, 0);
-    -o-transform:translate3d(150px, 0, 0);
-    transform:translate3d(150px, 0, 0);
-}
