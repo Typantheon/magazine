@@ -62,21 +62,21 @@
             <hr>
             <div id="entities">
                 <ul id="badgeList">
-                    <li class="badge">Subject</li>
-                    <li class="badge">Connections</li>
-                    <li class="badge">Cultures</li>
-                    <li class="badge">Domains</li>
-                    <li class="badge">Epithets</li>
-                    <li class="badge">Events</li>
-                    <li class="badge">Languages</li>
-                    <li class="badge">Literature</li>
-                    <li class="badge">Places</li> 
-                    <li class="badge">Rituals</li>
-                    <li class="badge">Pop-culture</li>
-                    <li class="badge">Powers</li>
-                    <li class="badge">Objects</li>
-                    <li class="badge">Morality</li>
-                    <li class="badge">Physical Description</li>
+                    <li class="badge" id="subj">Subject</li>
+                    <li class="badge" id="con">Connections</li>
+                    <li class="badge" id="cul">Cultures</li>
+                    <li class="badge" id="dom">Domains</li>
+                    <li class="badge" id="epi">Epithets</li>
+                    <li class="badge" id="eve">Events</li>
+                    <li class="badge" id="lan">Languages</li>
+                    <li class="badge" id="lit">Literature</li>
+                    <li class="badge" id="pla">Places</li> 
+                    <li class="badge" id="rit">Rituals</li>
+                    <li class="badge" id="pop">Pop-culture</li>
+                    <li class="badge" id="pow">Powers</li>
+                    <li class="badge" id="obj">Objects</li>
+                    <li class="badge" id="mor">Morality</li>
+                    <li class="badge" id="phy">Physical Description</li>
                 </ul>
                 <div class="entities-list" id="subjectList">
                 </div>
@@ -177,6 +177,21 @@
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/dyonisus.html");
                     $("#themes-list").fadeIn();
                     $("label").show();
+                    $("#subj").show();
+                    $("#pla").show();
+                    $("#cul").show();
+                    $("#dom").show();
+                    $("#con").show();
+                    $("#epi").show();
+                    $("#lit").show();
+                    $("#rit").show();
+                    $("#phy").hide();
+                    $("#mor").hide();
+                    $("#pow").hide();
+                    $("#pop").hide();
+                    $("#obj").hide();
+                    $("#lan").hide();
+                    $("#eve").hide();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#subjectList").html("<ul><li name='dionysus' onclick='highlight(this)'>Dionysus</li></ul>");
@@ -193,6 +208,21 @@
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/hephaestus.html");
                     $("#themes-list").fadeIn();
                     $("label").show();
+                    $("#subj").show();
+                    $("#pla").show();
+                    $("#cul").show();
+                    $("#dom").show();
+                    $("#con").show();
+                    $("#epi").show();
+                    $("#lit").show();
+                    $("#rit").show();
+                    $("#phy").hide();
+                    $("#mor").hide();
+                    $("#pow").hide();
+                    $("#pop").show();
+                    $("#obj").hide();
+                    $("#lan").show();
+                    $("#eve").show();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Hephaestus </li><li><span class='bolder'>Author:</span> Avi Kapach </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
@@ -212,6 +242,21 @@
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/cailleach.html");
                     $("#themes-list").fadeIn();
                     $("label").show();
+                    $("#subj").show();
+                    $("#pla").show();
+                    $("#cul").show();
+                    $("#dom").show();
+                    $("#con").show();
+                    $("#epi").show();
+                    $("#lit").show();
+                    $("#rit").show();
+                    $("#phy").show();
+                    $("#mor").show();
+                    $("#pow").show();
+                    $("#pop").show();
+                    $("#obj").show();
+                    $("#lan").show();
+                    $("#eve").show();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> The Cailleach </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
@@ -235,6 +280,21 @@
                     $("#articleToRead").load("https://typantheon.github.io/magazine/issues/loki.html");
                     $("#themes-list").fadeIn();
                     $("label").show();
+                    $("#subj").show();
+                    $("#pla").show();
+                    $("#cul").hide();
+                    $("#dom").show();
+                    $("#con").show();
+                    $("#epi").show();
+                    $("#lit").show();
+                    $("#rit").show();
+                    $("#phy").show();
+                    $("#mor").show();
+                    $("#pow").hide();
+                    $("#pop").show();
+                    $("#obj").hide();
+                    $("#lan").show();
+                    $("#eve").hide();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Loki </li><li><span class='bolder'>Author:</span> Thomas Apel </li><li><span class='bolder'>Published:</span> November 18 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
@@ -256,6 +316,21 @@
                     $("#articleToRead").load("raijin.html");
                     $("#themes-list").fadeIn();
                     $("label").show();
+                    $("#subj").hide();
+                    $("#pla").show();
+                    $("#cul").show();
+                    $("#dom").hide();
+                    $("#con").show();
+                    $("#epi").show();
+                    $("#lit").hide();
+                    $("#rit").hide();
+                    $("#phy").hide();
+                    $("#mor").hide();
+                    $("#pow").hide();
+                    $("#pop").hide();
+                    $("#obj").hide();
+                    $("#lan").hide();
+                    $("#eve").hide();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Raijin </li><li><span class='bolder'>Author:</span> Gregory Wright </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
@@ -269,6 +344,21 @@
                     $("#articleToRead").load("quetzalcoatl.html");
                     $("#themes-list").fadeIn();
                     $("label").show();
+                    $("#subj").hide();
+                    $("#pla").show();
+                    $("#cul").show();
+                    $("#dom").hide();
+                    $("#con").show();
+                    $("#epi").show();
+                    $("#lit").hide();
+                    $("#rit").hide();
+                    $("#phy").hide();
+                    $("#mor").hide();
+                    $("#pow").hide();
+                    $("#pop").hide();
+                    $("#obj").hide();
+                    $("#lan").show();
+                    $("#eve").hide();
                     $(".image-container").hide();
                     $("#selectAnArticle").hide();
                     $("#meta-info").html("<ul><li><span class='bolder'>Title:</span> Quetzalcoatl </li><li><span class='bolder'>Author:</span> Evan Meehan </li><li><span class='bolder'>Published:</span> November 19 2021</li><li><span class='bolder'>Publisher:</span> Mythopedia </li></ul>");
