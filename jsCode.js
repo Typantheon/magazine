@@ -45,14 +45,11 @@ function changeStylesheet(css) {
     }
     if (css != '../retro60s.css') {
         const imgs = document.getElementsByTagName('img');
-            for (let i = 0; i < imgs.length; i++) {
-                if(imgs[i].getAttribute('id') == 'over-img-1') {
-                    imgs[i].remove();
-                }
-                if(imgs[i].getAttribute('id') == 'over-abstract') {
-                   imgs[i].remove();
-                }
+        for (let i = 0; i < imgs.length; i++) {
+            if(imgs[i].getAttribute('id') == 'over-img-1' || imgs[i].getAttribute('id') == 'over-abstract') {
+                imgs[i].remove();
             }
+        }
     }
 };
 
