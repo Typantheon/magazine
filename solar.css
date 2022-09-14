@@ -362,12 +362,12 @@ tr:last-child > td {
   z-index: 2;
   pointer-events: none;
   animation: flicker 0.15s infinite;
-  height: 100%;
+
 }
 .crt::before {
   content: " ";
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -377,11 +377,9 @@ tr:last-child > td {
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
   background-repeat: repeat !important;
-  height: 100%;
 }
 .crt {
   animation: textShadow 1.6s infinite;
-  height: 100%;
 }
 
 
