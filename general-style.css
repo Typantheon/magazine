@@ -698,10 +698,12 @@ input[type="checkbox"]:checked ~ #articleToRead{
 /*footer */
 footer {
 	margin-top: 3em;
-	border-top: 1px solid #efd6ac;
+	border-top: 2px solid #efd6ac;
 	background-color:  #04151f;
 	color: #fffdf4;
 	width: 100%;
+	margin-bottom: 0px;
+	padding-top: 10px;
 }
 
 footer > p {
