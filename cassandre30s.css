@@ -40,6 +40,11 @@ nav > ul, #themes-list {
     padding-bottom: 0px;
 }
 
+#navLogo > a {
+    color: #cf4b3a !important;
+    text-decoration: none !important;
+}
+
 nav > ul > li, nav a {
     color: #f8f0e2 !important;
     font-size: 28px;
