@@ -608,7 +608,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #fff79c;
+  background-color: #fffdf4;
   position: absolute;
   top: 0;
   left: 0;
@@ -650,8 +650,9 @@ input[type="checkbox"]:checked ~ #articleToRead{
 
 .our-team:hover .email {
   bottom: 0;
-  color: #000000;
-  background-color: #fff79c;
+  color:  #04151f;
+  text-decoration: underline; 
+  text-decoration-color: #efd6ac !important;
 }
 
 
