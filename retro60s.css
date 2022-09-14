@@ -180,11 +180,28 @@ h1 {
         url('images/70s-articlebg.png');
 }
 
-.pubnote {
+#over-abstract + .pubnote {
     display: block;
     z-index: 1;
     margin: auto;
     margin-top: -7em !important;
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 1.2em;
+    text-align: center;
+    color:#594b50;
+    background-color: #f9d18a;
+    border-radius: 10px;
+    border: #594b50 solid 3px;
+    padding: 10px;
+}
+
+.pubnote {
+    display: block;
+    z-index: 1;
+    margin: auto;
+    margin-top: 2em ;
     width: 70% !important;
     margin-left: auto !important;
     margin-right: auto !important;
