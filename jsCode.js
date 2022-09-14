@@ -1,13 +1,19 @@
 function changeStylesheet(css) {
     const stylesheets = $("[rel='stylesheet']");
-    if (stylesheets.length == 3) {
-        var style = stylesheets[2].getAttribute('href');
-        stylesheets[2].setAttribute('href', css);
+    if (css != 'reset') {
+        /*document.getElementById('resetButton').style.display="block";*/
+        $("#resetButton").show();
+        if (stylesheets.length == 3) {
+            var style = stylesheets[2].getAttribute('href');
+            stylesheets[2].setAttribute('href', css);
+        }
+        else {
+            addStylesheet(css); 
+        }
     }
     else {
-        addStylesheet(css); 
+        $("#resetButton").hide();
     }
-    document.getElementById('resetButton').style.display="block";
     switch (css) {
         case '../retro60s.css':
             var innerArticle = document.getElementById('article-inner');
