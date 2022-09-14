@@ -515,17 +515,11 @@ input[type="checkbox"]:checked ~ #articleToRead{
   margin-bottom: 2.5em;
 }
 
-@media only screen and (min-width: 500px) and (max-width:900px){
+@media only screen and (max-width:900px){
         .image-container > div {
-            width: 48%;
-        }
-    }
-
-@media only screen and (max-width:499px){
-        .image-container > div {
-            width: 99%;
+            width: 100%;
 	    display: block;
-        }
+	}
     }
 
 #row-1, #row-2 {
