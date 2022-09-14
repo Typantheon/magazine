@@ -653,6 +653,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
   color:  #04151f;
   text-decoration: underline; 
   text-decoration-color: #efd6ac !important;
+  text-decoration-thickness: 2px;
 }
 
 
