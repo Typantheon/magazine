@@ -4,7 +4,7 @@
 }
 
 @font-face{
-    font-family: "Courierprime-Regular";
+    font-family: "CourierPrime-Regular";
     src: url("Courierprime-regular.ttf")
 }
 
@@ -133,13 +133,13 @@ h1 {
     color: #656770;
 }
 .author {
-    font-family: 'Courierprime-Regular';
+    font-family: 'Courier Prime-Regular';
     color: #656770;
     text-align: center;
     font-size: 36pt;
 }
 .publicationDate {
-    font-family: 'Courierprime-Regular';
+    font-family: 'Courier Prime-Regular';
     font-size: 15pt;
     color: #656770;
     text-align: center;
@@ -171,7 +171,7 @@ h1 {
 
 .pubnote {
     font-size: 18pt !important;
-    font-family: 'Courierprime-Regular';
+    font-family: 'Courier Prime-Regular';
     color: #656770;
     width: 75% !important;
     margin-left: auto !important;
@@ -262,7 +262,7 @@ blockquote {
     -moz-column-span:all;
     -webkit-column-span:all;
     column-span:all;
-    font-family: "CourierPrime-Regular";
+    font-family: "Courier Prime-Regular";
     font-size:32px;
     font-weight:normal;
     padding:15px 0;
