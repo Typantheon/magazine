@@ -93,7 +93,6 @@ h1 {
 
 #article {
     margin-top: 170px !important;
-    background-image: url('bgmanga.jpg');
     content: "";
     clear: both;
     display: table;
@@ -101,7 +100,7 @@ h1 {
     text-transform: uppercase;
 }
 #article, #article-inner {
-    background-image: url('bgmanga.jpg');
+    background-color: white !important;
     margin-top: 2.5em;
     margin-bottom: 3em;
     width: 100%;
