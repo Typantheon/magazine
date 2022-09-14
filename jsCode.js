@@ -46,13 +46,12 @@ function changeStylesheet(css) {
     if (css != '../retro60s.css') {
         const imgs = document.getElementsByTagName('img');
         for (let i = 0; i < imgs.length; i++) {
-            if(imgs[i].getAttribute('id') == 'over-abstract') {
+            console.log(imgs[i]);
+            if (imgs[i].getAttribute('id') == 'over-abstract') {
                 imgs[i].remove();
-                console.log(imgs[i]);
             }
-            else if (imgs[i].getAttribute('id') == 'over-img-1') {
+            if (imgs[i].getAttribute('id') == 'over-img-1') {
                 imgs[i].remove();
-                console.log(imgs[i]);
             }    
         }
     }
