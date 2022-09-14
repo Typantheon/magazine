@@ -56,7 +56,7 @@ function changeStylesheet(css) {
     }
     if (css != '../manga.css') {
         const scripts = document.getElementsByTagName('script');
-        for (let i = 0; i < imgs.length; i++) {
+        for (let i = 0; i < scripts.length; i++) {
             if(scripts[i].getAttribute('src')  == 'https://typantheon.github.io/magazine/mangastructure.js') {
                 scripts[i].remove();
             }
