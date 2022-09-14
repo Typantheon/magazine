@@ -695,6 +695,26 @@ input[type="checkbox"]:checked ~ #articleToRead{
   text-decoration-thickness: 2px;
 }
 
+/*footer */
+footer {
+	margin-top: 3em;
+	border-top: 1px solid #efd6ac;
+	background-color:  #04151f;
+	color: #fffdf4;
+	width: 100%;
+}
 
+footer > p {
+	text-align: center;
+}
+
+footer > i {
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
 	
+
+
 
