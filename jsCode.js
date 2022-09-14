@@ -41,6 +41,7 @@ function changeStylesheet(css) {
     }
     else {
         $("#resetButton").hide();
+        stylesheets[2].remove();
     }
     if (css != '../retro60s.css') {
         const imgs = document.getElementsByTagName('img');
