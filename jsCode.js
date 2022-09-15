@@ -26,13 +26,6 @@ function changeStylesheet(css) {
               }
             }
             break;
-        case '../manga.css':
-            var js_script = document.createElement('script');
-            js_script.type = "text/javascript";
-            js_script.src = "https://typantheon.github.io/magazine/mangastructure.js";
-            js_script.async = true;
-            document.getElementsByTagName('head')[0].appendChild(js_script);
-            break;
         case '../cervantes_style.css':
             break;
         case '../revo_style.css':
